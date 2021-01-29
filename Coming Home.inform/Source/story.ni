@@ -101,6 +101,13 @@ Instead of getting the candy: say "I don't have health insurance, better not sur
 Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
 parrot's food is a thing. parrot's food is in Lower Cupboard. The definition of parrot's food is "Parrot's food… Highly nutritious. Lucky bastard", "Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
 
+Table is in Kitchen.
+pizza is a thing. pizza is on Table. The description of pizza is "Pepperoni's from Joe's… That's our best pizza.".
+Instead of getting pizza: say "That would come out of my paycheck".
+mail is a thing. mail is on Table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
+Instead of getting mail: say "I believe that is a federal crime".
+keys is a thing. keys is on Table.
+
 Section 3.4 In the Garage
 
 Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
