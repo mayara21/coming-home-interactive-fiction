@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-193"/>
+  <activeNode nodeId="node-218"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
     <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
@@ -10,21 +10,22 @@
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-11"/>
-      <child nodeId="node-29"/>
-      <child nodeId="node-40"/>
-      <child nodeId="node-42"/>
-      <child nodeId="node-60"/>
-      <child nodeId="node-65"/>
-      <child nodeId="node-66"/>
-      <child nodeId="node-98"/>
-      <child nodeId="node-143"/>
-      <child nodeId="node-144"/>
-      <child nodeId="node-146"/>
-      <child nodeId="node-150"/>
-      <child nodeId="node-154"/>
+      <child nodeId="node-30"/>
+      <child nodeId="node-103"/>
+      <child nodeId="node-105"/>
+      <child nodeId="node-123"/>
+      <child nodeId="node-128"/>
+      <child nodeId="node-129"/>
+      <child nodeId="node-161"/>
+      <child nodeId="node-165"/>
       <child nodeId="node-170"/>
-      <child nodeId="node-177"/>
-      <child nodeId="node-179"/>
+      <child nodeId="node-172"/>
+      <child nodeId="node-176"/>
+      <child nodeId="node-178"/>
+      <child nodeId="node-184"/>
+      <child nodeId="node-189"/>
+      <child nodeId="node-191"/>
+      <child nodeId="node-194"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -106,7 +107,7 @@
     <changed>YES</changed>
     <children>
       <child nodeId="node-12"/>
-      <child nodeId="node-142"/>
+      <child nodeId="node-29"/>
     </children>
   </item>
   <item nodeId="node-12">
@@ -259,47 +260,38 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-142">
+  <item nodeId="node-29">
     <command xml:space="preserve">examine motorcycle</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-29">
+  <item nodeId="node-30">
     <command xml:space="preserve">get key</command>
     <result xml:space="preserve">A chill runs up your spine&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-30"/>
-      <child nodeId="node-34"/>
-      <child nodeId="node-102"/>
-      <child nodeId="node-182"/>
+      <child nodeId="node-31"/>
+      <child nodeId="node-59"/>
+      <child nodeId="node-65"/>
+      <child nodeId="node-94"/>
     </children>
   </item>
-  <item nodeId="node-30">
+  <item nodeId="node-31">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with Main key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-31"/>
-      <child nodeId="node-131"/>
-      <child nodeId="node-160"/>
-    </children>
-  </item>
-  <item nodeId="node-31">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
       <child nodeId="node-32"/>
+      <child nodeId="node-35"/>
+      <child nodeId="node-49"/>
     </children>
   </item>
   <item nodeId="node-32">
-    <command xml:space="preserve">up</command>
-    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -307,229 +299,23 @@
     </children>
   </item>
   <item nodeId="node-33">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
     <command xml:space="preserve">down</command>
     <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-131">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-132"/>
-    </children>
-  </item>
-  <item nodeId="node-132">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Living Room&#x000A;You can see Body, Child, Paiting and Shelves (on which is trophies) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-133"/>
-      <child nodeId="node-140"/>
-    </children>
-  </item>
-  <item nodeId="node-133">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-134"/>
-    </children>
-  </item>
-  <item nodeId="node-134">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Kitchen&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-135"/>
-    </children>
-  </item>
-  <item nodeId="node-135">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-136"/>
-    </children>
-  </item>
-  <item nodeId="node-136">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-137"/>
-    </children>
-  </item>
-  <item nodeId="node-137">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-138"/>
-    </children>
-  </item>
-  <item nodeId="node-138">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Garage&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-139"/>
-    </children>
-  </item>
-  <item nodeId="node-139">
-    <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-140">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty. No one has been here for a while for sure.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-141"/>
-      <child nodeId="node-191"/>
-    </children>
-  </item>
-  <item nodeId="node-141">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Garage&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-191">
-    <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is sticker.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-192"/>
-    </children>
-  </item>
-  <item nodeId="node-192">
-    <command xml:space="preserve">touch motorcycle</command>
-    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-193"/>
-    </children>
-  </item>
-  <item nodeId="node-193">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-160">
-    <command xml:space="preserve">enter</command>
-    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-161"/>
-    </children>
-  </item>
-  <item nodeId="node-161">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">You can't sit in a occupied chair&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-162"/>
-    </children>
-  </item>
-  <item nodeId="node-162">
-    <command xml:space="preserve">get up</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-163"/>
-    </children>
-  </item>
-  <item nodeId="node-163">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-164"/>
-    </children>
-  </item>
-  <item nodeId="node-164">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-165"/>
-    </children>
-  </item>
-  <item nodeId="node-165">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty.&#x000A;&#x000A;You can see Motorcycle (on which is Sticker) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-166"/>
-    </children>
-  </item>
-  <item nodeId="node-166">
-    <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-167"/>
-    </children>
-  </item>
-  <item nodeId="node-167">
-    <command xml:space="preserve">touch</command>
-    <result xml:space="preserve">(Main key)&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-168"/>
-    </children>
-  </item>
-  <item nodeId="node-168">
-    <command xml:space="preserve">touch motorcycle</command>
-    <result xml:space="preserve">Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-169"/>
-    </children>
-  </item>
-  <item nodeId="node-169">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-34">
-    <command xml:space="preserve">unlock door with key</command>
-    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-35"/>
-    </children>
-  </item>
   <item nodeId="node-35">
-    <command xml:space="preserve">enter</command>
-    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -537,17 +323,18 @@
     </children>
   </item>
   <item nodeId="node-36">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Body, Child, Paiting and Shelves (on which is trophies) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-37"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
   <item nodeId="node-37">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -555,8 +342,8 @@
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">close door</command>
-    <result xml:space="preserve">You close Main door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Kitchen&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -564,350 +351,17 @@
     </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">scenes</command>
-    <result xml:space="preserve">Scene 'Entire Game' playing (for 6 mins now)&#x000A;Scene 'Being Outside the House' ended&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-102">
-    <command xml:space="preserve">open box</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-103"/>
-    </children>
-  </item>
-  <item nodeId="node-103">
-    <command xml:space="preserve">examine box</command>
-    <result xml:space="preserve">In Old box are candle and string.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-104"/>
-    </children>
-  </item>
-  <item nodeId="node-104">
-    <command xml:space="preserve">get</command>
-    <result xml:space="preserve">What do you want to get?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-105"/>
-    </children>
-  </item>
-  <item nodeId="node-105">
-    <command xml:space="preserve">get candle and string</command>
-    <result xml:space="preserve">candle: Taken.&#x000A;string: Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-106"/>
-    </children>
-  </item>
-  <item nodeId="node-106">
-    <command xml:space="preserve">get bucket</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-107"/>
-    </children>
-  </item>
-  <item nodeId="node-107">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-108"/>
-    </children>
-  </item>
-  <item nodeId="node-108">
-    <command xml:space="preserve">porch</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-109"/>
-    </children>
-  </item>
-  <item nodeId="node-109">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-110"/>
-    </children>
-  </item>
-  <item nodeId="node-110">
-    <command xml:space="preserve">use key</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-111"/>
-    </children>
-  </item>
-  <item nodeId="node-111">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">What do you want to unlock Main door with?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-112"/>
-    </children>
-  </item>
-  <item nodeId="node-112">
-    <command xml:space="preserve">key</command>
-    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-113"/>
-    </children>
-  </item>
-  <item nodeId="node-113">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-114"/>
-    </children>
-  </item>
-  <item nodeId="node-114">
-    <command xml:space="preserve">examine door</command>
-    <result xml:space="preserve">You see nothing special about Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-115"/>
-    </children>
-  </item>
-  <item nodeId="node-115">
-    <command xml:space="preserve">enter</command>
-    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-116"/>
-    </children>
-  </item>
-  <item nodeId="node-116">
-    <command xml:space="preserve">leave</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Old box (empty) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-117"/>
-    </children>
-  </item>
-  <item nodeId="node-117">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-118"/>
-    </children>
-  </item>
-  <item nodeId="node-118">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-119"/>
-    </children>
-  </item>
-  <item nodeId="node-119">
-    <command xml:space="preserve">map</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-120"/>
-    </children>
-  </item>
-  <item nodeId="node-120">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-121"/>
-    </children>
-  </item>
-  <item nodeId="node-121">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-122"/>
-    </children>
-  </item>
-  <item nodeId="node-122">
-    <command xml:space="preserve">n</command>
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-123"/>
+      <child nodeId="node-40"/>
     </children>
-  </item>
-  <item nodeId="node-123">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-124"/>
-    </children>
-  </item>
-  <item nodeId="node-124">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-125"/>
-    </children>
-  </item>
-  <item nodeId="node-125">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-126"/>
-    </children>
-  </item>
-  <item nodeId="node-126">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-127"/>
-    </children>
-  </item>
-  <item nodeId="node-127">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-128"/>
-    </children>
-  </item>
-  <item nodeId="node-128">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Garage&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-129"/>
-    </children>
-  </item>
-  <item nodeId="node-129">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-130"/>
-    </children>
-  </item>
-  <item nodeId="node-130">
-    <command xml:space="preserve">examine garage</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-182">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-183"/>
-    </children>
-  </item>
-  <item nodeId="node-183">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-184"/>
-    </children>
-  </item>
-  <item nodeId="node-184">
-    <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with Main key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-185"/>
-    </children>
-  </item>
-  <item nodeId="node-185">
-    <command xml:space="preserve">enter door</command>
-    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-186"/>
-    </children>
-  </item>
-  <item nodeId="node-186">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Living Room&#x000A;You can see Body here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-187"/>
-    </children>
-  </item>
-  <item nodeId="node-187">
-    <command xml:space="preserve">touch body</command>
-    <result xml:space="preserve">I better not touch it. Don't wanna tamper with evidence.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-188"/>
-    </children>
-  </item>
-  <item nodeId="node-188">
-    <command xml:space="preserve">get body</command>
-    <result xml:space="preserve">I don't want to carry a dead body with me, what would Jesus think?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-189"/>
-    </children>
-  </item>
-  <item nodeId="node-189">
-    <command xml:space="preserve">examine body</command>
-    <result xml:space="preserve">It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-190"/>
-    </children>
-  </item>
-  <item nodeId="node-190">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">sit</command>
-    <result xml:space="preserve">What do you want to sit on?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -915,71 +369,97 @@
     </children>
   </item>
   <item nodeId="node-41">
-    <command xml:space="preserve">sit on wooden chair</command>
-    <result xml:space="preserve">You cant sit in it&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
   </item>
   <item nodeId="node-42">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-43"/>
-      <child nodeId="node-46"/>
-      <child nodeId="node-47"/>
-      <child nodeId="node-48"/>
     </children>
   </item>
   <item nodeId="node-43">
-    <command xml:space="preserve">look chair</command>
-    <result xml:space="preserve">You see nothing special about Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-44"/>
-    </children>
   </item>
   <item nodeId="node-44">
-    <command xml:space="preserve">get wooden chair</command>
-    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty. No one has been here for a while for sure.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-45"/>
+      <child nodeId="node-46"/>
+      <child nodeId="node-216"/>
     </children>
   </item>
   <item nodeId="node-45">
-    <command xml:space="preserve">enter chair</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Garage&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-46">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key and You here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-47">
-    <command xml:space="preserve"> up</command>
-    <result xml:space="preserve">(first getting off Wooden chair)&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-48">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, You, Wooden chair, Old box (empty), thing1, thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-49"/>
+      <child nodeId="node-47"/>
     </children>
   </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">touch motorcycle</command>
+    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Fridge (in which is old fruits), Lower Cupboard (in which is candy), Upper Cupboard (closed) and Kitchen table (on which are pizza, mail and 'garage key') here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">examine fridge</command>
+    <result xml:space="preserve">The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.&#x000A;&#x000A;In Fridge is old fruits.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-49">
-    <command xml:space="preserve">get thing1</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -987,8 +467,8 @@
     </children>
   </item>
   <item nodeId="node-50">
-    <command xml:space="preserve">put thing1 on chair</command>
-    <result xml:space="preserve">You put thing1 on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">You can't sit in a occupied chair&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -996,8 +476,8 @@
     </children>
   </item>
   <item nodeId="node-51">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You can't sit in the Wooden chair, it is occupied&#x000A;&gt;</result>
+    <command xml:space="preserve">get up</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1005,8 +485,8 @@
     </children>
   </item>
   <item nodeId="node-52">
-    <command xml:space="preserve">sit on box</command>
-    <result xml:space="preserve">&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1014,8 +494,8 @@
     </children>
   </item>
   <item nodeId="node-53">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair (on which is thing1), Old box (empty), thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1023,8 +503,8 @@
     </children>
   </item>
   <item nodeId="node-54">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty.&#x000A;&#x000A;You can see Motorcycle (on which is Sticker) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1032,8 +512,8 @@
     </children>
   </item>
   <item nodeId="node-55">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1041,8 +521,8 @@
     </children>
   </item>
   <item nodeId="node-56">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Main key)&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1050,8 +530,8 @@
     </children>
   </item>
   <item nodeId="node-57">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch motorcycle</command>
+    <result xml:space="preserve">Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1059,22 +539,22 @@
     </children>
   </item>
   <item nodeId="node-58">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair (on which is thing1), Old box (empty), thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-59"/>
+      <child nodeId="node-60"/>
     </children>
   </item>
-  <item nodeId="node-59">
-    <command xml:space="preserve">sit on box</command>
-    <result xml:space="preserve">&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-60">
-    <command xml:space="preserve">enter chair</command>
+    <command xml:space="preserve">enter</command>
     <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -1084,7 +564,7 @@
   </item>
   <item nodeId="node-61">
     <command xml:space="preserve">out</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, You and Wooden chair here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1092,8 +572,8 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You cant sit in it&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1101,8 +581,8 @@
     </children>
   </item>
   <item nodeId="node-63">
-    <command xml:space="preserve">is chair seatable?</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1110,32 +590,32 @@
     </children>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">help</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">scenes</command>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 6 mins now)&#x000A;Scene 'Being Outside the House' ended&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">test me</command>
-    <result xml:space="preserve">&gt;--&gt; No test scripts exist for this game.&#x000A;&gt;</result>
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">sit on box</command>
-    <result xml:space="preserve">You can't sit on Old box&#x000A;&gt;</result>
+    <command xml:space="preserve">examine box</command>
+    <result xml:space="preserve">In Old box are candle and string.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-67"/>
-      <child nodeId="node-70"/>
-      <child nodeId="node-71"/>
-      <child nodeId="node-79"/>
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair and Old box (empty) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get</command>
+    <result xml:space="preserve">What do you want to get?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1143,8 +623,8 @@
     </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">enter bpx</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get candle and string</command>
+    <result xml:space="preserve">candle: Taken.&#x000A;string: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1152,20 +632,26 @@
     </children>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">enter box</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get bucket</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You can't sit on Wooden chair&#x000A;You feel confortable&#x000A;&gt;</result>
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
   </item>
   <item nodeId="node-71">
-    <command xml:space="preserve">get box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">porch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1173,8 +659,8 @@
     </children>
   </item>
   <item nodeId="node-72">
-    <command xml:space="preserve">put box on chair</command>
-    <result xml:space="preserve">You put Old box on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1182,8 +668,8 @@
     </children>
   </item>
   <item nodeId="node-73">
-    <command xml:space="preserve">sit chair</command>
-    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1191,8 +677,8 @@
     </children>
   </item>
   <item nodeId="node-74">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You can't sit in a occupied chair&#x000A;&gt;</result>
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock Main door with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1200,8 +686,8 @@
     </children>
   </item>
   <item nodeId="node-75">
-    <command xml:space="preserve">get box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1209,8 +695,8 @@
     </children>
   </item>
   <item nodeId="node-76">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1218,8 +704,8 @@
     </children>
   </item>
   <item nodeId="node-77">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key and You here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine door</command>
+    <result xml:space="preserve">You see nothing special about Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1227,14 +713,17 @@
     </children>
   </item>
   <item nodeId="node-78">
-    <command xml:space="preserve">get key</command>
-    <result xml:space="preserve">A chill runs up your spine&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
   </item>
   <item nodeId="node-79">
-    <command xml:space="preserve">enter box</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">leave</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair and Old box (empty) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1242,8 +731,8 @@
     </children>
   </item>
   <item nodeId="node-80">
-    <command xml:space="preserve">enter chair</command>
-    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1251,8 +740,8 @@
     </children>
   </item>
   <item nodeId="node-81">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key, You, Old box (empty), thing1, thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1260,8 +749,8 @@
     </children>
   </item>
   <item nodeId="node-82">
-    <command xml:space="preserve">get all</command>
-    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">map</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1269,8 +758,8 @@
     </children>
   </item>
   <item nodeId="node-83">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  thing3&#x000A;  thing2&#x000A;  thing1&#x000A;  Old box&#x000A;  You&#x000A;  Main key&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1278,8 +767,8 @@
     </children>
   </item>
   <item nodeId="node-84">
-    <command xml:space="preserve">drop me</command>
-    <result xml:space="preserve">You lack the dexterity.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1287,8 +776,8 @@
     </children>
   </item>
   <item nodeId="node-85">
-    <command xml:space="preserve">drop all</command>
-    <result xml:space="preserve">thing3: There is no more room on Wooden chair.&#x000A;thing2: There is no more room on Wooden chair.&#x000A;thing1: There is no more room on Wooden chair.&#x000A;Old box: There is no more room on Wooden chair.&#x000A;You: There is no more room on Wooden chair.&#x000A;Main key: There is no more room on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1296,8 +785,8 @@
     </children>
   </item>
   <item nodeId="node-86">
-    <command xml:space="preserve">exit</command>
-    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door and Wooden chair here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1305,8 +794,8 @@
     </children>
   </item>
   <item nodeId="node-87">
-    <command xml:space="preserve">drop all</command>
-    <result xml:space="preserve">thing3: Dropped.&#x000A;thing2: Dropped.&#x000A;thing1: Dropped.&#x000A;Old box: Dropped.&#x000A;You: Dropped.&#x000A;Main key: Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1314,8 +803,8 @@
     </children>
   </item>
   <item nodeId="node-88">
-    <command xml:space="preserve">get me</command>
-    <result xml:space="preserve">You are always self-possessed.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1323,8 +812,8 @@
     </children>
   </item>
   <item nodeId="node-89">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1332,8 +821,8 @@
     </children>
   </item>
   <item nodeId="node-90">
-    <command xml:space="preserve">get all</command>
-    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1341,8 +830,8 @@
     </children>
   </item>
   <item nodeId="node-91">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  thing3&#x000A;  thing2&#x000A;  thing1&#x000A;  Old box&#x000A;  You&#x000A;  Main key&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1350,8 +839,8 @@
     </children>
   </item>
   <item nodeId="node-92">
-    <command xml:space="preserve">actions</command>
-    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1359,17 +848,14 @@
     </children>
   </item>
   <item nodeId="node-93">
-    <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine garage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-94"/>
-    </children>
   </item>
   <item nodeId="node-94">
-    <command xml:space="preserve">actions off</command>
-    <result xml:space="preserve">Actions listing off.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1377,8 +863,8 @@
     </children>
   </item>
   <item nodeId="node-95">
-    <command xml:space="preserve">rules off</command>
-    <result xml:space="preserve">Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1386,8 +872,8 @@
     </children>
   </item>
   <item nodeId="node-96">
-    <command xml:space="preserve">drop all</command>
-    <result xml:space="preserve">thing3: Dropped.&#x000A;thing2: Dropped.&#x000A;thing1: Dropped.&#x000A;Old box: Dropped.&#x000A;You: Dropped.&#x000A;Main key: Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Main key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1395,14 +881,17 @@
     </children>
   </item>
   <item nodeId="node-97">
-    <command xml:space="preserve">get all</command>
-    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
   </item>
   <item nodeId="node-98">
-    <command xml:space="preserve">get box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Body here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1410,8 +899,8 @@
     </children>
   </item>
   <item nodeId="node-99">
-    <command xml:space="preserve">put box on chair</command>
-    <result xml:space="preserve">You put Old box on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch body</command>
+    <result xml:space="preserve">I better not touch it. Don't wanna tamper with evidence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1419,8 +908,8 @@
     </children>
   </item>
   <item nodeId="node-100">
-    <command xml:space="preserve">sit chair</command>
-    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get body</command>
+    <result xml:space="preserve">I don't want to carry a dead body with me, what would Jesus think?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1428,52 +917,368 @@
     </children>
   </item>
   <item nodeId="node-101">
-    <command xml:space="preserve">sit on chair</command>
-    <result xml:space="preserve">You cant sit in a occupied chair&#x000A;&gt;</result>
+    <command xml:space="preserve">examine body</command>
+    <result xml:space="preserve">It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">What do you want to sit on?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">sit on wooden chair</command>
+    <result xml:space="preserve">You cant sit in it&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+      <child nodeId="node-109"/>
+      <child nodeId="node-110"/>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">look chair</command>
+    <result xml:space="preserve">You see nothing special about Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">get wooden chair</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key and You here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve"> up</command>
+    <result xml:space="preserve">(first getting off Wooden chair)&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, You, Wooden chair, Old box (empty), thing1, thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">get thing1</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">put thing1 on chair</command>
+    <result xml:space="preserve">You put thing1 on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You can't sit in the Wooden chair, it is occupied&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">sit on box</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair (on which is thing1), Old box (empty), thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair (on which is thing1), Old box (empty), thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">sit on box</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, You and Wooden chair here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You cant sit in it&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">is chair seatable?</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">&gt;--&gt; No test scripts exist for this game.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">sit on box</command>
+    <result xml:space="preserve">You can't sit on Old box&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+      <child nodeId="node-133"/>
+      <child nodeId="node-134"/>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair and Old box (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">enter bpx</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">enter box</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You can't sit on Wooden chair&#x000A;You feel confortable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">get box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">put box on chair</command>
+    <result xml:space="preserve">You put Old box on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">sit chair</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You can't sit in a occupied chair&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">get box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key and You here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">A chill runs up your spine&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">enter box</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
   </item>
   <item nodeId="node-143">
-    <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is sticker.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-152"/>
-      <child nodeId="node-175"/>
-      <child nodeId="node-176"/>
-    </children>
-  </item>
-  <item nodeId="node-152">
-    <command xml:space="preserve">touch motorcycle</command>
-    <result xml:space="preserve">Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-153"/>
+      <child nodeId="node-144"/>
     </children>
-  </item>
-  <item nodeId="node-153">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-175">
-    <command xml:space="preserve">examine broken heart sticker</command>
-    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-  </item>
-  <item nodeId="node-176">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-144">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key, You, Old box (empty), thing1, thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1481,14 +1286,17 @@
     </children>
   </item>
   <item nodeId="node-145">
-    <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
   </item>
   <item nodeId="node-146">
-    <command xml:space="preserve">touch</command>
-    <result xml:space="preserve">(Motorcycle)&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  thing3&#x000A;  thing2&#x000A;  thing1&#x000A;  Old box&#x000A;  You&#x000A;  Main key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1496,8 +1304,8 @@
     </children>
   </item>
   <item nodeId="node-147">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop me</command>
+    <result xml:space="preserve">You lack the dexterity.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1505,8 +1313,8 @@
     </children>
   </item>
   <item nodeId="node-148">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">thing3: There is no more room on Wooden chair.&#x000A;thing2: There is no more room on Wooden chair.&#x000A;thing1: There is no more room on Wooden chair.&#x000A;Old box: There is no more room on Wooden chair.&#x000A;You: There is no more room on Wooden chair.&#x000A;Main key: There is no more room on Wooden chair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1514,14 +1322,17 @@
     </children>
   </item>
   <item nodeId="node-149">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door and Wooden chair here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
   </item>
   <item nodeId="node-150">
-    <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">thing3: Dropped.&#x000A;thing2: Dropped.&#x000A;thing1: Dropped.&#x000A;Old box: Dropped.&#x000A;You: Dropped.&#x000A;Main key: Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1529,14 +1340,35 @@
     </children>
   </item>
   <item nodeId="node-151">
-    <command xml:space="preserve">touch motorcycle</command>
-    <result xml:space="preserve">A chill runs up your spine&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get me</command>
+    <result xml:space="preserve">You are always self-possessed.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
   </item>
   <item nodeId="node-154">
-    <command xml:space="preserve">examine </command>
-    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  thing3&#x000A;  thing2&#x000A;  thing1&#x000A;  Old box&#x000A;  You&#x000A;  Main key&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1544,8 +1376,8 @@
     </children>
   </item>
   <item nodeId="node-155">
-    <command xml:space="preserve">touch motorcycle</command>
-    <result xml:space="preserve">Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1553,8 +1385,8 @@
     </children>
   </item>
   <item nodeId="node-156">
-    <command xml:space="preserve">get motorcycle</command>
-    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1562,8 +1394,8 @@
     </children>
   </item>
   <item nodeId="node-157">
-    <command xml:space="preserve">examine sticker</command>
-    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">actions off</command>
+    <result xml:space="preserve">Actions listing off.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1571,8 +1403,8 @@
     </children>
   </item>
   <item nodeId="node-158">
-    <command xml:space="preserve">get sticker</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">rules off</command>
+    <result xml:space="preserve">Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1580,14 +1412,94 @@
     </children>
   </item>
   <item nodeId="node-159">
-    <command xml:space="preserve">drop sticker</command>
-    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">thing3: Dropped.&#x000A;thing2: Dropped.&#x000A;thing1: Dropped.&#x000A;Old box: Dropped.&#x000A;You: Dropped.&#x000A;Main key: Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">get box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">put box on chair</command>
+    <result xml:space="preserve">You put Old box on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">sit chair</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You cant sit in a occupied chair&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is sticker.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-166"/>
+      <child nodeId="node-168"/>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">touch motorcycle</command>
+    <result xml:space="preserve">Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">examine broken heart sticker</command>
+    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-170">
-    <command xml:space="preserve">examine toolbov</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1595,17 +1507,14 @@
     </children>
   </item>
   <item nodeId="node-171">
-    <command xml:space="preserve">examine toolbox</command>
-    <result xml:space="preserve">Your usual toolbox.&#x000A;&#x000A;In Toolbox is screwdriver.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-172"/>
-    </children>
   </item>
   <item nodeId="node-172">
-    <command xml:space="preserve">get screwdriver</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch</command>
+    <result xml:space="preserve">(Motorcycle)&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1614,7 +1523,7 @@
   </item>
   <item nodeId="node-173">
     <command xml:space="preserve">examine</command>
-    <result xml:space="preserve">(screwdriver)&#x000A;You see nothing special about screwdriver.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1622,29 +1531,47 @@
     </children>
   </item>
   <item nodeId="node-174">
-    <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is broken heart sticker.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-177">
-    <command xml:space="preserve">touch body</command>
-    <result xml:space="preserve">I better not touch it. Don't wanna tamper with evidence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-178"/>
+      <child nodeId="node-175"/>
     </children>
   </item>
-  <item nodeId="node-178">
-    <command xml:space="preserve">examine body</command>
-    <result xml:space="preserve">It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-175">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">touch motorcycle</command>
+    <result xml:space="preserve">A chill runs up your spine&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">examine </command>
+    <result xml:space="preserve">(Motorcycle)&#x000A;This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
   <item nodeId="node-179">
-    <command xml:space="preserve">get body</command>
-    <result xml:space="preserve">I don't want to carry a dead body with me, what would Jesus think?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch motorcycle</command>
+    <result xml:space="preserve">Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1652,8 +1579,8 @@
     </children>
   </item>
   <item nodeId="node-180">
-    <command xml:space="preserve">touch body</command>
-    <result xml:space="preserve">I better not touch it. Don't wanna tamper with evidence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get motorcycle</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -1661,8 +1588,302 @@
     </children>
   </item>
   <item nodeId="node-181">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">get sticker</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">drop sticker</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">examine toolbov</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">examine toolbox</command>
+    <result xml:space="preserve">Your usual toolbox.&#x000A;&#x000A;In Toolbox is screwdriver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">get screwdriver</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(screwdriver)&#x000A;You see nothing special about screwdriver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is broken heart sticker.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">touch body</command>
+    <result xml:space="preserve">I better not touch it. Don't wanna tamper with evidence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
     <command xml:space="preserve">examine body</command>
     <result xml:space="preserve">It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">get body</command>
+    <result xml:space="preserve">I don't want to carry a dead body with me, what would Jesus think?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">touch body</command>
+    <result xml:space="preserve">I better not touch it. Don't wanna tamper with evidence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">examine body</command>
+    <result xml:space="preserve">It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">examine string</command>
+    <result xml:space="preserve">You see nothing special about string.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">touch string</command>
+    <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">get string</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">drop string</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">A chill runs up your spine&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">unlock key</command>
+    <result xml:space="preserve">(with Main key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Main key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Body, Child, Paiting and Shelves (on which is trophies) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Body, Child, Paiting and Shelves (on which is trophies) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty. No one has been here for a while for sure.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Body, Child, Paiting and Shelves (on which is trophies) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Home Office&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see Body, Child, Paiting and Shelves (on which is trophies) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty. No one has been here for a while for sure.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see Fridge (empty), Lower Cupboard (in which is candy), Upper Cupboard (closed) and Kitchen table (on which are pizza, mail and 'garage key') here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">examine fridge</command>
+    <result xml:space="preserve">The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

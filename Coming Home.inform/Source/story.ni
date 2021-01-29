@@ -97,6 +97,7 @@ Section 3.3 In the Kitchen
 
 Fridge is a container. Fridge is in Kitchen. The description of Fridge is "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
 Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die.".
+old fruits is a thing. old fruits is in Fridge.
 
 Lower Cupboard is a container. Lower Cupboard is in Kitchen. The description of Lower Cupboard is "Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him… Must have hated him...".
 candy is a thing. candy is in Lower Cupboard.
