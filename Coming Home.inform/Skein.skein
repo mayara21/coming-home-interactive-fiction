@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-169"/>
+  <activeNode nodeId="node-176"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
-    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Garage&#x000A;This garage feels a little... dirty.&#x000A;&#x000A;You can see Motorcycle (on which is sticker) and Toolbox (in which is screwdriver) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -22,6 +22,7 @@
       <child nodeId="node-146"/>
       <child nodeId="node-150"/>
       <child nodeId="node-154"/>
+      <child nodeId="node-170"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -1328,11 +1329,13 @@
   </item>
   <item nodeId="node-143">
     <command xml:space="preserve">examine motorcycle</command>
-    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is Sticker.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
       <child nodeId="node-152"/>
+      <child nodeId="node-175"/>
+      <child nodeId="node-176"/>
     </children>
   </item>
   <item nodeId="node-152">
@@ -1347,6 +1350,18 @@
   <item nodeId="node-153">
     <command xml:space="preserve">examine sticker</command>
     <result xml:space="preserve">I guess I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">examine broken heart sticker</command>
+    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -1461,6 +1476,48 @@
   <item nodeId="node-159">
     <command xml:space="preserve">drop sticker</command>
     <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">examine toolbov</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">examine toolbox</command>
+    <result xml:space="preserve">Your usual toolbox.&#x000A;&#x000A;In Toolbox is screwdriver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">get screwdriver</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">examine</command>
+    <result xml:space="preserve">(screwdriver)&#x000A;You see nothing special about screwdriver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">examine motorcycle</command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is broken heart sticker.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
