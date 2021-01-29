@@ -52,7 +52,7 @@ Upper Hall is a room.
 Large Bedroom is a room. Large Bedroom is north of Upper Hall.
 Medium Bedroom is a room.  Medium Bedroom is east of Upper Hall.
 Small Bedroom is a room. Small Bedroom is west of Upper Hall.
-Bathroom is a room. Bathroom is south of Upper Hall.
+Bathroom is a room. Bathroom is south of Upper Hall. "This place gives me the chills… I was never a fan of bathrooms".
 Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom.
 
 First Floor is a region. The Hall, Living Room, Garage, Kitchen, Dining Room, Home Office and Lavabo are in First Floor.
@@ -106,7 +106,7 @@ pizza is a thing. pizza is on Kitchen table. The description of pizza is "Pepper
 Instead of taking pizza: say "That would come out of my paycheck".
 mail is a thing. mail is on Kitchen table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
 Instead of taking mail: say "I believe that is a federal crime.".
-keys is a thing. keys is on Kitchen table.
+garage key is a thing. garage key is on Kitchen table.
 
 Section 3.4 In the Garage
 
