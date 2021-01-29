@@ -87,7 +87,12 @@ Instead of taking the Painting: say "I don't think anyone would wanna buy it in 
 
 Shelves is in Living Room.
 throphies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
-Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere"..
+Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere".
+
+Section 3.3 Kitchen
+
+Fridge is a container. Fridge is in Kitchen. The description of Fridge is "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
+Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die".
 
 Section 3.4 In the Garage
 
