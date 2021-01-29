@@ -119,6 +119,11 @@ Instead of taking the sticker: say "I'll end up ripping it apart."
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
 
+Section 3.5 In the Bathroom
+
+Mirror is a thing. Mirror is in Bathroom. The description of Mirror is "Wow, I've really aged… And… I look so sad. But I didn't even know the guy, am I sad for him? Am I sad for his life?… I just really need to get out of here.".
+Instead of taking the mirror: say "I think stealing a dead man's mirror also gives 7 years of bad luck.".
+
 
 Chapter 4 What Happens when entering
 
