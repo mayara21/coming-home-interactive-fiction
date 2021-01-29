@@ -80,6 +80,8 @@ Motorcycle is in Garage. The description of Motorcycle is “This old rusty moto
 sticker is a thing. sticker is on Motorcycle. The description of sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”.
 Before examining the sticker: Say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
 
+Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
+screwdriver is a thing. screwdriver is in Toolbox. 
 
 Chapter 4 What Happens when entering
 
