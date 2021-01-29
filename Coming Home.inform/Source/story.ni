@@ -94,6 +94,11 @@ Section 3.3 Kitchen
 Fridge is a container. Fridge is in Kitchen. The description of Fridge is "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
 Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die".
 
+Lower Cupboard is a container. Lower Cupboard is in Kitchen. The description of Lower Cupboard is "Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him… Must have hated him..."
+candy is a thing. candy is in Lower Cupboard.
+Instead of getting the candy: say "I don't have health insurance, better not surrender myself to the temptations of potential cavities yet… Maybe when I'm older".
+
+
 Section 3.4 In the Garage
 
 Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
