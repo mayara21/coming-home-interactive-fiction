@@ -78,10 +78,17 @@ Section 3.2 In the Garage
 
 Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
 sticker is a thing. sticker is on Motorcycle. The description of sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”.
-Before examining the sticker: Say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
+Before examining the sticker: say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
+Instead of taking the sticker: say "I'll end up ripping it apart."
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
+
+Section 3.3 Living Room
+
+Body is a thing. Body is in Living Room. The description of Body is “It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police".
+Instead of touching the Body: say "I better not touch it. Don't wanna tamper with evidence.".
+Instead of taking the Body: say "I don't want to carry a dead body with me, what would Jesus think?"
 
 Chapter 4 What Happens when entering
 
