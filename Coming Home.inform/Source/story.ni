@@ -98,6 +98,8 @@ Lower Cupboard is a container. Lower Cupboard is in Kitchen. The description of 
 candy is a thing. candy is in Lower Cupboard.
 Instead of getting the candy: say "I don't have health insurance, better not surrender myself to the temptations of potential cavities yet… Maybe when I'm older".
 
+Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
+parrot's food is a thing. parrot's food is in Lower Cupboard. The definition of parrot's food is "Parrot's food… Highly nutritious. Lucky bastard", "Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
 
 Section 3.4 In the Garage
 
