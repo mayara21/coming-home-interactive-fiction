@@ -100,7 +100,7 @@ Instead of taking the candy: say "I don't have health insurance, better not surr
 
 Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
 After opening Upper Cupboard: say "Parrot's food… Highly nutritious. Lucky bastard. Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
-parrot's food is a thing. parrot's food is in Lower Cupboard.
+parrot's food is a thing. parrot's food is in Upper Cupboard.
 
 Kitchen table is in Kitchen.
 pizza is a thing. pizza is on Kitchen table. The description of pizza is "Pepperoni's from Joe's… That's our best pizza.".
