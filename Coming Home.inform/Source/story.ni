@@ -92,21 +92,21 @@ Instead of taking the trophies: say "I am not going to steal some old awards, I 
 Section 3.3 Kitchen
 
 Fridge is a container. Fridge is in Kitchen. The description of Fridge is "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
-Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die".
+Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die.".
 
-Lower Cupboard is a container. Lower Cupboard is in Kitchen. The description of Lower Cupboard is "Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him… Must have hated him..."
+Lower Cupboard is a container. Lower Cupboard is in Kitchen. The description of Lower Cupboard is "Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him… Must have hated him...".
 candy is a thing. candy is in Lower Cupboard.
-Instead of getting the candy: say "I don't have health insurance, better not surrender myself to the temptations of potential cavities yet… Maybe when I'm older".
+Instead of taking the candy: say "I don't have health insurance, better not surrender myself to the temptations of potential cavities yet… Maybe when I'm older.".
 
 Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
-parrot's food is a thing. parrot's food is in Lower Cupboard. The definition of parrot's food is "Parrot's food… Highly nutritious. Lucky bastard", "Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
+parrot's food is a thing. parrot's food is in Lower Cupboard. The description of parrot's food is "Parrot's food… Highly nutritious. Lucky bastard. Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
 
-Table is in Kitchen.
-pizza is a thing. pizza is on Table. The description of pizza is "Pepperoni's from Joe's… That's our best pizza.".
-Instead of getting pizza: say "That would come out of my paycheck".
-mail is a thing. mail is on Table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
-Instead of getting mail: say "I believe that is a federal crime".
-keys is a thing. keys is on Table.
+Kitchen table is in Kitchen.
+pizza is a thing. pizza is on Kitchen table. The description of pizza is "Pepperoni's from Joe's… That's our best pizza.".
+Instead of taking pizza: say "That would come out of my paycheck".
+mail is a thing. mail is on Kitchen table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
+Instead of taking mail: say "I believe that is a federal crime.".
+keys is a thing. keys is on Kitchen table.
 
 Section 3.4 In the Garage
 
