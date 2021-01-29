@@ -124,10 +124,10 @@ Section 3.5 In the Bathroom
 Mirror is a thing. Mirror is in Bathroom. The description of Mirror is "Wow, I've really aged… And… I look so sad. But I didn't even know the guy, am I sad for him? Am I sad for his life?… I just really need to get out of here.".
 Instead of taking the mirror: say "I think stealing a dead man's mirror also gives 7 years of bad luck.".
 
-Cupboard is a container. Cupboard is in Bathroom. The description of Cupboard is "A regular bathroom cabinet. Nothing special about its exterior.".
-After opening Cupboard: say "There are a lot of antidepressants here… Poor guy.".
-q-tip is a thing. q-tip is in Cupboard.
-tweezers is a thing. tweezers is in Cupboard.
+Bathroom Cupboard is a container. Bathroom Cupboard is in Bathroom. The description of Bathroom Cupboard is "A regular bathroom cabinet. Nothing special about its exterior.".
+After opening Bathroom Cupboard: say "There are a lot of antidepressants here… Poor guy.".
+q-tip is a thing. q-tip is in Bathroom Cupboard.
+tweezers is a thing. tweezers is in Bathroom Cupboard.
 
 
 Chapter 4 What Happens when entering
