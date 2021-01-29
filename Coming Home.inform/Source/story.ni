@@ -42,7 +42,7 @@ Main door is a door. It is north of Porch and south of Hall. Main door is closed
 The matching key of the Main door is Main key.
 
 Living Room is a room. Living room is north of Hall.
-Garage is a room. Garage is west of Living Room."This garage feels a little... dirty."
+Garage is a room. Garage is west of Living Room."This garage feels a little... dirty. No one has been here for a while for sure."
 Kitchen is a room.  Kitchen is north of garage.
 Dining Room is a room. Dining room is east of kitchen. Dining Room is north of Living Room.
 Home Office is a room. Home Office is east of Living Room.
