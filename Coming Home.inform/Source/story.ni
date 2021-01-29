@@ -41,6 +41,10 @@ Hall is room.
 Main door is a door. It is north of Porch and south of Hall. Main door is closed and locked.
 The matching key of the Main door is Main key.
 
+[O compilador não tá entendendo que garage door e garage estarem ambas ao oeste de living room não é uma contradição]
+['Garage door' is a door. 'Garage door' is west of Living Room and east of Garage. 'Garage door' is closed and locked.
+The matching key of the 'Garage door' is 'garage key'.]
+
 Living Room is a room. Living room is north of Hall.
 Garage is a room. Garage is west of Living Room."This garage feels a little... dirty. No one has been here for a while for sure."
 Kitchen is a room.  Kitchen is north of garage.
@@ -87,7 +91,7 @@ Instead of taking the Painting: say "I don't think anyone would wanna buy it in 
 
 Shelves is in Living Room.
 throphies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
-Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere".
+Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere.".
 
 Section 3.3 In the Kitchen
 
@@ -107,14 +111,14 @@ pizza is a thing. pizza is on Kitchen table. The description of pizza is "Pepper
 Instead of taking pizza: say "That would come out of my paycheck".
 mail is a thing. mail is on Kitchen table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
 Instead of taking mail: say "I believe that is a federal crime.".
-garage key is a thing. garage key is on Kitchen table.
+'garage key' is a thing. 'garage key' is on Kitchen table.
 
 Section 3.4 In the Garage
 
 Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
 Instead of touching the Motorcycle: say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
 sticker is a thing. sticker is on Motorcycle. The description of sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”.
-Instead of taking the sticker: say "I'll end up ripping it apart."
+Instead of taking the sticker: say "I'll end up ripping it apart.".
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
