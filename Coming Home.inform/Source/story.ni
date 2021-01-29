@@ -88,7 +88,16 @@ Section 3.3 Living Room
 
 Body is a thing. Body is in Living Room. The description of Body is “It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police".
 Instead of touching the Body: say "I better not touch it. Don't wanna tamper with evidence.".
-Instead of taking the Body: say "I don't want to carry a dead body with me, what would Jesus think?"
+Instead of taking the Body: say "I don't want to carry a dead body with me, what would Jesus think?".
+
+Child is a person. Child is in Living Room. The description of Child is "It looks like a pretty regular kid, a bit creepy he's not more affected by the dead body. Apparently he is a space fan, his shirt is quite IN YOUR FACE about it. He reminds me a little bit of myself when I was young… I might have also owned a 'I <3 space' shirt. Nowadays I am more subtle about my feelings for the outer world.".
+
+Painting is a thing. Paiting is in Living Room. The description of painting is "Picture of a scary old woman with a poodle by her side. I would not appreciate crossing paths with this lady.".
+Instead of taking the Painting: say "I don't think anyone would wanna buy it in the underworld market.".
+
+Shelves is in Living Room.
+throphies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
+Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere"..
 
 Chapter 4 What Happens when entering
 
