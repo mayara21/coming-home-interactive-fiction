@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x03398ED0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x033A6DC0"/>
+  <item nodeId="node-0x03398ED0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 130103 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x033A3858"/>
+      <child nodeId="node-0x033A3DE0"/>
+      <child nodeId="node-0x033A68F0"/>
+      <child nodeId="node-0x033A6E30"/>
+      <child nodeId="node-0x033A6F10"/>
+      <child nodeId="node-0x033AA580"/>
+      <child nodeId="node-0x033AA820"/>
+      <child nodeId="node-0x033AA890"/>
+      <child nodeId="node-0x033AEA68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3858">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A38C8"/>
+      <child nodeId="node-0x033A39A8"/>
+      <child nodeId="node-0x033A3A90"/>
+      <child nodeId="node-0x033A3B48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A38C8">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3938">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A39A8">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A3A90">
+    <command xml:space="preserve">unlock Main door</command>
+    <result xml:space="preserve">What do you want to unlock Main door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A3B48">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3C00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3CB8">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3D70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3D70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A3DE0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see You here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3E50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3E50">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3F20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3F20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A3FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A3FF0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A62D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A62D0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6340"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A63B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A63B0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Porch&#x000A;You can see You here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6420"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6420">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6490"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6490">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Lavabo&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6500"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6500">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6570"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6570">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A65E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A65E0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6650"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6650">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A66C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A66C0">
+    <command xml:space="preserve">climb stairs</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6730"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6730">
+    <command xml:space="preserve">stairs</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A67A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A67A0">
+    <command xml:space="preserve">enter Living Room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6810"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6810">
+    <command xml:space="preserve">enter staris</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6880"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6880">
+    <command xml:space="preserve">enter stairs</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see Stairs here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A68F0">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">A chill runs up your spine&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A69D0"/>
+      <child nodeId="node-0x033A6B90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A69D0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Main key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6A40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6A40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6AB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6AB0">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Upper Hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6B20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6B20">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A6B90">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6C00"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6C00">
+    <command xml:space="preserve">enter</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6C70"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6C70">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Wooden chair, Old box (in which are candle and string) and bucket (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6CE0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6CE0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6D50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6D50">
+    <command xml:space="preserve">close door</command>
+    <result xml:space="preserve">You close Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6DC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6DC0">
+    <command xml:space="preserve">scenes</command>
+    <result xml:space="preserve">Scene 'Entire Game' playing (for 6 mins now)&#x000A;Scene 'Being Outside the House' ended&#x000A;(Scene monitoring now switched on. Type "scenes off" to switch it off again.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A6E30">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">What do you want to sit on?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6EA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6EA0">
+    <command xml:space="preserve">sit on wooden chair</command>
+    <result xml:space="preserve">You cant sit in it&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A6F10">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6F80"/>
+      <child nodeId="node-0x033A70D0"/>
+      <child nodeId="node-0x033A7140"/>
+      <child nodeId="node-0x033A71B0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6F80">
+    <command xml:space="preserve">look chair</command>
+    <result xml:space="preserve">You see nothing special about Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A6FF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A6FF0">
+    <command xml:space="preserve">get wooden chair</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A7060"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A7060">
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A70D0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key and You here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A7140">
+    <command xml:space="preserve"> up</command>
+    <result xml:space="preserve">(first getting off Wooden chair)&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033A71B0">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, You, Wooden chair, Old box (empty), thing1, thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033A7220"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033A7220">
+    <command xml:space="preserve">get thing1</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA120"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA120">
+    <command xml:space="preserve">put thing1 on chair</command>
+    <result xml:space="preserve">You put thing1 on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA190"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA190">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You can't sit in the Wooden chair, it is occupied&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA200"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA200">
+    <command xml:space="preserve">sit on box</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA270"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA270">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair (on which is thing1), Old box (empty), thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA2E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA2E0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA350"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA350">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA3C0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA3C0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA430"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA430">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA4A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA4A0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair (on which is thing1), Old box (empty), thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA510"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA510">
+    <command xml:space="preserve">sit on box</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AA580">
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA5F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA5F0">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door, Main key, You and Wooden chair here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA660"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA660">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You cant sit in it&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA6D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA6D0">
+    <command xml:space="preserve">is chair seatable?</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA740"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA740">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AA820">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve">&gt;--&gt; No test scripts exist for this game.&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AA890">
+    <command xml:space="preserve">sit on box</command>
+    <result xml:space="preserve">You can't sit on Old box&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA900"/>
+      <child nodeId="node-0x033AAA50"/>
+      <child nodeId="node-0x033AAAC0"/>
+      <child nodeId="node-0x033AAE40"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA900">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch&#x000A;You can see Main door, Main key, You, Wooden chair and Old box (empty) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA970"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA970">
+    <command xml:space="preserve">enter bpx</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AA9E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AA9E0">
+    <command xml:space="preserve">enter box</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AAA50">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You can't sit on Wooden chair&#x000A;You feel confortable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AAAC0">
+    <command xml:space="preserve">get box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAB30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAB30">
+    <command xml:space="preserve">put box on chair</command>
+    <result xml:space="preserve">You put Old box on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AABA0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AABA0">
+    <command xml:space="preserve">sit chair</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAC10"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAC10">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You can't sit in a occupied chair&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAC80"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAC80">
+    <command xml:space="preserve">get box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AACF0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AACF0">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You feel confortable&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAD60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAD60">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key and You here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AADD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AADD0">
+    <command xml:space="preserve">get key</command>
+    <result xml:space="preserve">A chill runs up your spine&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AAE40">
+    <command xml:space="preserve">enter box</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAEB0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAEB0">
+    <command xml:space="preserve">enter chair</command>
+    <result xml:space="preserve">You get onto Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAF20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAF20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Porch (on Wooden chair)&#x000A;You can see Main door, Main key, You, Old box (empty), thing1, thing2 and thing3 here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AAF90"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AAF90">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AB000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AB000">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  thing3&#x000A;  thing2&#x000A;  thing1&#x000A;  Old box&#x000A;  You&#x000A;  Main key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AB070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AB070">
+    <command xml:space="preserve">drop me</command>
+    <result xml:space="preserve">You lack the dexterity.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE4B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE4B8">
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">thing3: There is no more room on Wooden chair.&#x000A;thing2: There is no more room on Wooden chair.&#x000A;thing1: There is no more room on Wooden chair.&#x000A;Old box: There is no more room on Wooden chair.&#x000A;You: There is no more room on Wooden chair.&#x000A;Main key: There is no more room on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE528"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE528">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get off Wooden chair.&#x000A;&#x000A;Porch&#x000A;You can see Main door and Wooden chair here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE598"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE598">
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">thing3: Dropped.&#x000A;thing2: Dropped.&#x000A;thing1: Dropped.&#x000A;Old box: Dropped.&#x000A;You: Dropped.&#x000A;Main key: Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE608"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE608">
+    <command xml:space="preserve">get me</command>
+    <result xml:space="preserve">You are always self-possessed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE678"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE678">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE6E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE6E8">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE758"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE758">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  thing3&#x000A;  thing2&#x000A;  thing1&#x000A;  Old box&#x000A;  You&#x000A;  Main key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE7C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE7C8">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE838"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE838">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE8A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE8A8">
+    <command xml:space="preserve">actions off</command>
+    <result xml:space="preserve">Actions listing off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE918"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE918">
+    <command xml:space="preserve">rules off</command>
+    <result xml:space="preserve">Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE988"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE988">
+    <command xml:space="preserve">drop all</command>
+    <result xml:space="preserve">thing3: Dropped.&#x000A;thing2: Dropped.&#x000A;thing1: Dropped.&#x000A;Old box: Dropped.&#x000A;You: Dropped.&#x000A;Main key: Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AE9F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AE9F8">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">Main key: A chill runs up your spine&#x000A;Taken.&#x000A;You: Taken.&#x000A;Old box: Taken.&#x000A;thing1: Taken.&#x000A;thing2: Taken.&#x000A;thing3: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x033AEA68">
+    <command xml:space="preserve">get box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AEAD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AEAD8">
+    <command xml:space="preserve">put box on chair</command>
+    <result xml:space="preserve">You put Old box on Wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AEB48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AEB48">
+    <command xml:space="preserve">sit chair</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x033AEBB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x033AEBB8">
+    <command xml:space="preserve">sit on chair</command>
+    <result xml:space="preserve">You cant sit in a occupied chair&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
