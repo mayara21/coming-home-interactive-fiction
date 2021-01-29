@@ -74,7 +74,7 @@ candle, string are in Old box.
 
 bucket is in Porch.
 
-Section 3.2 Living Room
+Section 3.2 In the Living Room
 
 Body is a thing. Body is in Living Room. The description of Body is “It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police".
 Instead of touching the Body: say "I better not touch it. Don't wanna tamper with evidence.".
@@ -89,7 +89,7 @@ Shelves is in Living Room.
 throphies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
 Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere".
 
-Section 3.3 Kitchen
+Section 3.3 In the Kitchen
 
 Fridge is a container. Fridge is in Kitchen. The description of Fridge is "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
 Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die.".
@@ -117,6 +117,7 @@ Instead of taking the sticker: say "I'll end up ripping it apart."
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
+
 
 Chapter 4 What Happens when entering
 
