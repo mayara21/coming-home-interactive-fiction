@@ -42,7 +42,7 @@ Main door is a door. It is north of Porch and south of Hall. Main door is closed
 The matching key of the Main door is Main key.
 
 Living Room is a room. Living room is north of Hall.
-Garage is a room. Garage is west of Living Room.
+Garage is a room. Garage is west of Living Room."This garage feels a little... dirty."
 Kitchen is a room.  Kitchen is north of garage.
 Dining Room is a room. Dining room is east of kitchen. Dining Room is north of Living Room.
 Home Office is a room. Home Office is east of Living Room.
@@ -73,6 +73,13 @@ candle is a thing. string is a thing. bucket is a container.
 candle, string are in Old box.
 
 bucket is in Porch.
+
+Section 3.2 In the Garage
+
+Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”
+Before touching the Motorcycle: Say “Wow, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
+Sticker is a thing. Sticker is on Motorcycle. The description of Sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”
+
 
 Chapter 4 What Happens when entering
 

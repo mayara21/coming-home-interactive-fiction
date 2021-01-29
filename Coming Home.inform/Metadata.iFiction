@@ -10,29 +10,29 @@
             <author>Geraldo</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
-            <firstpublished>2013</firstpublished>
+            <firstpublished>2021</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2013-05-27</releasedate>
+                    <releasedate>2021-01-29</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
-                    <compilerversion>6G60</compilerversion>
+                    <compilerversion>6M62</compilerversion>
                 </release>
             </attached>
         </releases>
         <colophon>
             <generator>Inform 7</generator>
-            <generatorversion>6G60</generatorversion>
-            <originated>2013-05-27</originated>
+            <generatorversion>6M62</generatorversion>
+            <originated>2021-01-29</originated>
         </colophon>
         <zcode>
-            <serial>130527</serial>
+            <serial>210129</serial>
             <release>1</release>
-            <compiler>Inform 7 build 6G60</compiler>
+            <compiler>Inform 7 build 6M62</compiler>
         </zcode>
     </story>
 </ifindex>
