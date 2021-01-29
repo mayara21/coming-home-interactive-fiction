@@ -74,17 +74,7 @@ candle, string are in Old box.
 
 bucket is in Porch.
 
-Section 3.2 In the Garage
-
-Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
-Instead of touching the Motorcycle: say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
-sticker is a thing. sticker is on Motorcycle. The description of sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”.
-Instead of taking the sticker: say "I'll end up ripping it apart."
-
-Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
-screwdriver is a thing. screwdriver is in Toolbox. 
-
-Section 3.3 Living Room
+Section 3.2 Living Room
 
 Body is a thing. Body is in Living Room. The description of Body is “It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police".
 Instead of touching the Body: say "I better not touch it. Don't wanna tamper with evidence.".
@@ -98,6 +88,16 @@ Instead of taking the Painting: say "I don't think anyone would wanna buy it in 
 Shelves is in Living Room.
 throphies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
 Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere"..
+
+Section 3.4 In the Garage
+
+Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
+Instead of touching the Motorcycle: say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
+sticker is a thing. sticker is on Motorcycle. The description of sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”.
+Instead of taking the sticker: say "I'll end up ripping it apart."
+
+Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
+screwdriver is a thing. screwdriver is in Toolbox. 
 
 Chapter 4 What Happens when entering
 
