@@ -1,4 +1,4 @@
-"Coming Home" by Geraldo
+["Coming Home" by Geraldo]
 
 Chapter 1 New Kinds
 
@@ -334,16 +334,48 @@ Rule for printing the name of the Moving box:
 toys is a thing. toys is in Moving box. 
 posters is a thing. posters is in Moving box.
 
+security terminal  is a closed lockable locked container. security terminal is in Medium Bedroom. 
 
 safe is a closed lockable locked container. safe is in Medium Bedroom.  The description of safe is "There is a phone ringing inside that safe. I need a 4 character password to open it."
 Instead of taking the safe: say "It's bolted to the floor".
 In the Safe is a phone and photos. The Safe is closed and fixed in place. Understand "dial" as the Safe.
 
-Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the Safe, say "[The noun] does not spin." instead. Report spinning it to: say "Click! and nothing else happens."
+Unlockingsafe is an action applying to one thing. Understand "Try to open [something]” as Unlockingsafe.
+Understand "Try to unlock [something]” as Unlockingsafe.
 
-Understand "spin [something] to [a number]" as spinning it to.
-After spinning the closed Safe to 1384: now the Safe is open; say "Clonk! and the safe door swings slowly open, revealing [a list of things in the Safe]."
-		
+
+Instead of Unlockingsafe safe: 
+	now the command prompt is "Enter the password now. >";
+	continue the action.
+	
+After reading a command when the command prompt is "Enter the password now. >":
+	increment the turn count;
+	if the player's command matches "SS59": 
+		now the safe is unlocked;
+		say "**BUZZ**  Yeah I got it. thank you dear parrot. Now what is in this safe.";
+		now the command prompt is ">";
+	otherwise:
+		say "Incorrect password.";
+		now the command prompt is "Should I try again? >";
+	reject the player's command.	
+	
+After reading a command when the command prompt is "Should I try again? >":
+	if the player's command matches "yes" or the player's command matches "y" or the player's command matches "try again": 
+		now the command prompt is "Enter the password now. >";
+		say line break;
+		say run paragraph on;
+		reject the player's command;
+	if the player's command matches "no" or the player's command matches "n": 
+		now the command prompt is ">";
+		say line break;
+		say run paragraph on;
+		reject the player's command;
+	otherwise:
+		say line break;
+		say run paragraph on;
+		reject the player's command.
+
+
 
 Chapter 4 What Happens when entering
 
