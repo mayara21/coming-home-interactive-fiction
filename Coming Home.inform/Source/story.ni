@@ -52,16 +52,26 @@ Garage is a room. "This garage feels a little... dirty. No one has been here for
 
 A Strong Metal Door is a door. A Strong Metal Door is south of Kitchen and north of Garage. A Strong Metal Door is closed and locked.
 The matching key of Strong Metal Door is garage key.
+
 Kitchen is a room.  
+
 A Large Wooden Door is a door. A Large Wooden Door is east of Kitchen and west of Dining room. A Large Wooden Door is closed and locked.
 The matching key of Large Wooden Door is  Silver key.
+
 Dining Room is north of Living Room.
 Home Office is a room. Home Office is east of Living Room.
 Lavabo is a room. Lavabo is east of Hall.
 Stairs is a staircase. It is above Hall and below Upper Hall.
+
 Upper Hall is a room.  
-Large Bedroom is a room. Large Bedroom is north of Upper Hall.
-Medium Bedroom is a room.  Medium Bedroom is east of Upper Hall.
+A Old Blue Door is a door. A Old Blue Door is south of Large Bedroom and north of Upper Hall. A Old Blue Door is closed and locked.
+The matching key of Old Blue Door is  Black key.
+Large Bedroom is a room. 
+
+A Brown Weak Door is a door. A Brown Weak Door is west of Medium Bedroom and east of Upper Hall. A Brown Weak Door is closed and locked.
+The matching key of Brown Weak Door is  crowbar.
+Medium Bedroom is a room. "Well, this room sure isn't the star of the house"
+
 Small Bedroom is a room. Small Bedroom is west of Upper Hall.
 Bathroom is a room. Bathroom is south of Upper Hall. "This place gives me the chills… I was never a fan of bathrooms".
 Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom.
@@ -71,7 +81,7 @@ Second Floor is a region. The Upper Hall, The Large Bedroom, the medium bedroom,
 
 Chapter 3 Things
 
-Player is in Kitchen.  
+Player is in Medium Bedroom.  
 Main key is in Porch.
 
 Section 3.1 On the Porch
@@ -137,37 +147,45 @@ candy is a thing. candy is in Lower Cupboard.
 Instead of taking the candy: say "I don't have health insurance, better not surrender myself to the temptations of potential cavities yet… Maybe when I'm older.".
 
 Kitchen table is in Kitchen.
-crowbar  is a thing. crowbar  is on Kitchen table. 
-garage key is a thing. garage key is on Kitchen table.
-
-Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
-
-Before opening Upper Cupboard:
-	if player is holding crowbar:
-		say "I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.";
-		
+Rule for printing the name of the Kitchen table: 
+	say "Kitchen table";
+	omit contents in listing.
 	
-
-After opening Upper Cupboard: say "Parrot's food… Highly nutritious. Lucky bastard. Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
-parrot's food is a thing. parrot's food is in Upper Cupboard.
-
-
+garage key is a thing. garage key is on Kitchen table.
 pizza is a thing. pizza is on Kitchen table. The description of pizza is "Pepperoni's from Joe's… That's our best pizza.".
 Instead of taking pizza: say "That would come out of my paycheck".
 mail is a thing. mail is on Kitchen table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
 Instead of taking mail: say "I believe that is a federal crime.".
 
 
+Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
+
+
+Before opening Upper Cupboard:
+	if player is holding crowbar:
+		say "I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.";
+
+
+After opening Upper Cupboard: say "Parrot's food… Highly nutritious. Lucky bastard. Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
+parrot's food is a thing. parrot's food is in Upper Cupboard.
+
 
 Section 3.4 In the Garage
 
 Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
+Rule for printing the name of the Motorcycle: 
+	say "Motorcycle";
+	omit contents in listing.
+
 Instead of touching the Motorcycle: say “Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.”.
 sticker is a thing. sticker is on Motorcycle. The description of sticker is "I guess if I quit, I’ll never see Joe’s son, Ethan, again. I’ve had… strong feelings for him for a while now . Well, it’s better this way. He would never EVER like me back. Besides, being into guys is kinda weird.”.
 Instead of taking the sticker: say "I'll end up ripping it apart.".
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
+Rule for printing the name of the Toolbox: 
+	say "Toolbox";
+	omit contents in listing.
 
 
 Section 3.5 In the Bathroom
@@ -176,10 +194,71 @@ Mirror is a thing. Mirror is in Bathroom. The description of Mirror is "Wow, I'v
 Instead of taking the mirror: say "I think stealing a dead man's mirror also gives 7 years of bad luck.".
 
 Bathroom Cupboard is a container. Bathroom Cupboard is in Bathroom. The description of Bathroom Cupboard is "A regular bathroom cabinet. Nothing special about its exterior.".
+Rule for printing the name of the Bathroom Cupboard : 
+	say "Bathroom Cupboard ";
+	omit contents in listing.
 After opening Bathroom Cupboard: say "There are a lot of antidepressants here… Poor guy.".
 q-tip is a thing. q-tip is in Bathroom Cupboard.
 tweezers is a thing. tweezers is in Bathroom Cupboard.
+meds is a container. meds is in Bathroom Cupboard.
+Black key is a thing. Black key is in meds. 
+alcohol is a thing. alcohol is in Bathroom Cupboard.
 
+Section 3.6 In the Large Bedroom
+
+Personal box is a container. Personal box is in Large Bedroom. The description of Personal box is "Box with a space decoration and filled with drawings, papers and toys about… space, apparently. That's pretty sweet, actually. I wonder if it belongs to a grandson (though he seems to not have any family). I always liked the idea of studying the unknown. I will study it someday actually… I think. When things are more stable, f-for sure I will… I just need more time… Err... the kid! The kid likes space. I could tell him about this box, it may distract him from the gloominess".
+Rule for printing the name of the Personal box: 
+	say "Personal box";
+	omit contents in listing.
+secret compartment is a container. secret compartment is in Personal box. secret compartment is lockable and locked.
+Rule for printing the name of the secret compartment: 
+	say "secret compartment";
+	omit contents in listing.
+ The matching key of the secret compartment is tweezers.
+Golg key is a thing. Golg key is in secret compartment.
+
+Clothes rack is a container. Clothes rack is in Large Bedroom. The description of Clothes rack is "Looks like a work uniform. Was he still working at this age? It does not look like he worked with physics or space judging by this outfit. Guess the old man had some failed dreams… Man, am I going the sam– I should keep searching." .
+Rule for printing the name of the Clothes rack : 
+	say "Clothes rack ";
+	omit contents in listing.
+uniform is a thing. uniform is in Clothes rack.
+Instead of taking the uniform: say "Nothing to do with this uniform".
+
+Bedside table is in Large Bedroom. The description of Bedside table is "That is some strong booze to have sitting on the bedside table… I wonder if he... Maybe if I had gotten here sooner… No, I better not think that" .
+Rule for printing the name of the Bedside table: 
+	say "Bedside table";
+	omit contents in listing.
+whiskey bottle is a thing. whiskey bottle is on Bedside table.
+Instead of taking the whiskey bottle: say "I already spend too many nights with this scotch, maybe not this one"
+
+Photo shelves is a thing. Photo shelves is in Large Bedroom. The description of Photo shelves is "A bunch of photos of him… alone, mostly. Some work events… One is a plaque of employee of the month, hey, congrats. I don't see his family anywhere. Looks like we were both the rotten apple in the family tree… Cheers."
+
+	
+Wardrobe is a container. Wardrobe is in Large Bedroom. The description of Wardrobe is "Just some clothes and shoes, all very drab. That's a proper sized closet for hiding. When I was a kid, my sister and I would spend hours inside mom's closet playing with our star lantern. She used to say that was our own Milky Way… S-she must be okay, right? Yeah, she's probably okay… ".
+Rule for printing the name of the Wardrobe: 
+	say "Wardrobe";
+	omit contents in listing.
+shirts is a thing. shirts is in Wardrobe.
+Instead of taking the shirts: say "I already have drab clothes of my own".
+crowbar  is a thing. crowbar  is in Wardrobe.
+
+Section 3.7 In the Medium Bedroom
+
+Moving box is a container. Moving box is in Medium Bedroom.
+Rule for printing the name of the Moving box: 
+	say "Moving box";
+	omit contents in listing.
+toys is a thing. toys is in Moving box. 
+posters is a thing. posters is in Moving box.
+
+
+safe is a closed lockable locked container. safe is in Medium Bedroom.  The description of safe is "There is a phone ringing inside that safe. I need a 4 character password to open it."
+Instead of taking the safe: say "It's bolted to the floor".
+In the Safe is a phone and photos. The Safe is closed and fixed in place. Understand "dial" as the Safe.
+Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the Safe, say "[The noun] does not spin." instead. Report spinning it to: say "Click! and nothing else happens."
+Understand "spin [something] to [a number]" as spinning it to.
+After spinning the closed Safe to 1384: now the Safe is open; say "Clonk! and the safe door swings slowly open, revealing [a list of things in the Safe]."
+		
 
 Chapter 4 What Happens when entering
 

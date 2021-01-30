@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-362"/>
+  <activeNode nodeId="node-420"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
-    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210129 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Kitchen&#x000A;You can see a Large Wooden Door, a Strong Metal Door, Fridge, Lower Cupboard , Kitchen table (on which are garage key, crowbar, pizza and mail) and Upper Cupboard (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210130 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Medium Bedroom&#x000A;Well, this room sure isn't the star of the house&#x000A;&#x000A;You can see a Brown Weak Door, Moving box and safe (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -64,6 +64,24 @@
       <child nodeId="node-358"/>
       <child nodeId="node-359"/>
       <child nodeId="node-360"/>
+      <child nodeId="node-367"/>
+      <child nodeId="node-373"/>
+      <child nodeId="node-374"/>
+      <child nodeId="node-379"/>
+      <child nodeId="node-382"/>
+      <child nodeId="node-385"/>
+      <child nodeId="node-387"/>
+      <child nodeId="node-391"/>
+      <child nodeId="node-397"/>
+      <child nodeId="node-399"/>
+      <child nodeId="node-401"/>
+      <child nodeId="node-406"/>
+      <child nodeId="node-408"/>
+      <child nodeId="node-410"/>
+      <child nodeId="node-411"/>
+      <child nodeId="node-413"/>
+      <child nodeId="node-417"/>
+      <child nodeId="node-419"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -2889,6 +2907,42 @@
     <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-363"/>
+    </children>
+  </item>
+  <item nodeId="node-363">
+    <command xml:space="preserve">take eggs</command>
+    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-364"/>
+    </children>
+  </item>
+  <item nodeId="node-364">
+    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
+    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-365"/>
+    </children>
+  </item>
+  <item nodeId="node-365">
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-366"/>
+    </children>
+  </item>
+  <item nodeId="node-366">
+    <command xml:space="preserve">open Upper Cupboard</command>
+    <result xml:space="preserve">I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.&#x000A;&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-337">
     <command xml:space="preserve">open fridge</command>
@@ -2940,9 +2994,9 @@
   </item>
   <item nodeId="node-343">
     <command xml:space="preserve">open  Upper Cupboard</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
   </item>
   <item nodeId="node-344">
     <command xml:space="preserve">open  Upper Cupboard</command>
@@ -2961,9 +3015,9 @@
   </item>
   <item nodeId="node-346">
     <command xml:space="preserve">open Upper Cupboard with crowbar</command>
-    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-347"/>
     </children>
@@ -3076,6 +3130,436 @@
   <item nodeId="node-362">
     <command xml:space="preserve">open  Upper Cupboard</command>
     <result xml:space="preserve">I would potentially destroy his entire cabinet, better use a smaller tool&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-367">
+    <command xml:space="preserve">examine kitchen table</command>
+    <result xml:space="preserve">On Kitchen table are garage key, crowbar, pizza and mail.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-368"/>
+    </children>
+  </item>
+  <item nodeId="node-368">
+    <command xml:space="preserve">examine pizza</command>
+    <result xml:space="preserve">Pepperoni's from Joe's&#x2026; That's our best pizza.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-369"/>
+    </children>
+  </item>
+  <item nodeId="node-369">
+    <command xml:space="preserve">get pizza</command>
+    <result xml:space="preserve">That would come out of my paycheck&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-370"/>
+    </children>
+  </item>
+  <item nodeId="node-370">
+    <command xml:space="preserve">examine mail</command>
+    <result xml:space="preserve">Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-371"/>
+    </children>
+  </item>
+  <item nodeId="node-371">
+    <command xml:space="preserve">get mail</command>
+    <result xml:space="preserve">I believe that is a federal crime.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-372"/>
+    </children>
+  </item>
+  <item nodeId="node-372">
+    <command xml:space="preserve">get garage key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-373">
+    <command xml:space="preserve">examine garage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-374">
+    <command xml:space="preserve">examine Motorcycle </command>
+    <result xml:space="preserve">This old rusty motorbike&#x2026; It's a delivery one. Maybe he was a pizza guy too&#x2026; back in the 1800"s HA. I've been thinking of quitting. Every other day there's a "situation" with the other pizza place. These mafias...&#x000A;&#x000A;On Motorcycle is sticker.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-375"/>
+    </children>
+  </item>
+  <item nodeId="node-375">
+    <command xml:space="preserve">touch Motorcycle </command>
+    <result xml:space="preserve">Woah, this thing is FILTHY. Oh, there is a broken heart sticker here. He does seem like he was lonely.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-376"/>
+    </children>
+  </item>
+  <item nodeId="node-376">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-377"/>
+    </children>
+  </item>
+  <item nodeId="node-377">
+    <command xml:space="preserve">examine sticker</command>
+    <result xml:space="preserve">I guess if I quit, I'll never see Joe's son, Ethan, again. I've had&#x2026; strong feelings for him for a while now . Well, it's better this way. He would never EVER like me back. Besides, being into guys is kinda weird.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-378"/>
+    </children>
+  </item>
+  <item nodeId="node-378">
+    <command xml:space="preserve">get sticker</command>
+    <result xml:space="preserve">I'll end up ripping it apart.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-379">
+    <command xml:space="preserve">examine mirror</command>
+    <result xml:space="preserve">Wow, I've really aged&#x2026; And&#x2026; I look so sad. But I didn't even know the guy, am I sad for him? Am I sad for his life?&#x2026; I just really need to get out of here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-380"/>
+    </children>
+  </item>
+  <item nodeId="node-380">
+    <command xml:space="preserve">get mirror</command>
+    <result xml:space="preserve">I think stealing a dead man's mirror also gives 7 years of bad luck.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-381"/>
+    </children>
+  </item>
+  <item nodeId="node-381">
+    <command xml:space="preserve">examine Bathroom Cupboard</command>
+    <result xml:space="preserve">A regular bathroom cabinet. Nothing special about its exterior.&#x000A;&#x000A;In Bathroom Cupboard  are q-tip and tweezers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-382">
+    <command xml:space="preserve">examine Bathroom Cupboard</command>
+    <result xml:space="preserve">A regular bathroom cabinet. Nothing special about its exterior.&#x000A;&#x000A;In Bathroom Cupboard  are q-tip, tweezers, meds and alcohol.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-383"/>
+    </children>
+  </item>
+  <item nodeId="node-383">
+    <command xml:space="preserve">examine meds </command>
+    <result xml:space="preserve">In meds is Big key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-384"/>
+    </children>
+  </item>
+  <item nodeId="node-384">
+    <command xml:space="preserve">take Big key.</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-385">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-386"/>
+    </children>
+  </item>
+  <item nodeId="node-386">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-387">
+    <command xml:space="preserve">examine Clothes rack</command>
+    <result xml:space="preserve">Looks like a work uniform. Was he still working at this age? It does not look like he worked with physics or space judging by this outfit. Guess the old man had some failed dreams&#x2026; Man, am I going the sam- I should keep searching.&#x000A;&#x000A;In Clothes rack is uniform.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-388"/>
+    </children>
+  </item>
+  <item nodeId="node-388">
+    <command xml:space="preserve">get uniform</command>
+    <result xml:space="preserve">Nothing to do with this uniform&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-389"/>
+    </children>
+  </item>
+  <item nodeId="node-389">
+    <command xml:space="preserve">examine Bedside table</command>
+    <result xml:space="preserve">That is some strong booze to have sitting on the bedside table&#x2026; I wonder if he... Maybe if I had gotten here sooner&#x2026; No, I better not think that&#x000A;&#x000A;On Bedside table is whiskey bottle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-390"/>
+    </children>
+  </item>
+  <item nodeId="node-390">
+    <command xml:space="preserve">get whiskey bottle</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-391">
+    <command xml:space="preserve">examine personal box</command>
+    <result xml:space="preserve">Box with a space decoration and filled with drawings, papers and toys about&#x2026; space, apparently. That's pretty sweet, actually. I wonder if it belongs to a grandson (though he seems to not have any family). I always liked the idea of studying the unknown. I will study it someday actually&#x2026; I think. When things are more stable, f-for sure I will&#x2026; I just need more time&#x2026; Err... the kid! The kid likes space. I could tell him about this box, it may distract him from the gloominess&#x000A;&#x000A;In Personal box is secret compartment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-392"/>
+    </children>
+  </item>
+  <item nodeId="node-392">
+    <command xml:space="preserve">open secret compartment</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-393"/>
+    </children>
+  </item>
+  <item nodeId="node-393">
+    <command xml:space="preserve">examine Clothes rack</command>
+    <result xml:space="preserve">Looks like a work uniform. Was he still working at this age? It does not look like he worked with physics or space judging by this outfit. Guess the old man had some failed dreams&#x2026; Man, am I going the sam- I should keep searching.&#x000A;&#x000A;In Clothes rack  is uniform.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-394"/>
+    </children>
+  </item>
+  <item nodeId="node-394">
+    <command xml:space="preserve">get uniform</command>
+    <result xml:space="preserve">Nothing to do with this uniform&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-395"/>
+    </children>
+  </item>
+  <item nodeId="node-395">
+    <command xml:space="preserve">examine Bedside table</command>
+    <result xml:space="preserve">That is some strong booze to have sitting on the bedside table&#x2026; I wonder if he... Maybe if I had gotten here sooner&#x2026; No, I better not think that&#x000A;&#x000A;On Bedside table is whiskey bottle.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-396"/>
+    </children>
+  </item>
+  <item nodeId="node-396">
+    <command xml:space="preserve">get whiskey bottle</command>
+    <result xml:space="preserve">I already spend too many nights with this scotch, maybe not this one&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-397">
+    <command xml:space="preserve"> examine Wardrobe</command>
+    <result xml:space="preserve">Just some clothes and shoes, all very drab. That's a proper sized closet for hiding. When I was a kid, my sister and I would spend hours inside mom's closet playing with our star lantern. She used to say that was our own Milky Way&#x2026; S-she must be okay, right? Yeah, she's probably okay&#x2026; &#x000A;&#x000A;In Wardrobe is shirts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-398"/>
+    </children>
+  </item>
+  <item nodeId="node-398">
+    <command xml:space="preserve">take shirts</command>
+    <result xml:space="preserve">I already have drab clothes of my own&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-399">
+    <command xml:space="preserve">set safe to 5559</command>
+    <result xml:space="preserve">You dial 5559 on the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-400"/>
+    </children>
+  </item>
+  <item nodeId="node-400">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-401">
+    <command xml:space="preserve">set safe 543</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-402"/>
+    </children>
+  </item>
+  <item nodeId="node-402">
+    <command xml:space="preserve">set safe to 543</command>
+    <result xml:space="preserve">You dial 543 on the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-403"/>
+    </children>
+  </item>
+  <item nodeId="node-403">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">You have dialed the safe to 543.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-404"/>
+    </children>
+  </item>
+  <item nodeId="node-404">
+    <command xml:space="preserve">opn safe</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-405"/>
+    </children>
+  </item>
+  <item nodeId="node-405">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-406">
+    <command xml:space="preserve">set safe to 543</command>
+    <result xml:space="preserve">You dial 543 on the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-407"/>
+    </children>
+  </item>
+  <item nodeId="node-407">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-408">
+    <command xml:space="preserve">set safe to 111</command>
+    <result xml:space="preserve">You dial 111 on the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-409"/>
+    </children>
+  </item>
+  <item nodeId="node-409">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You open the safe.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-410">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">You haven't dialed the safe to any combination yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-411">
+    <command xml:space="preserve">The Safe is here. "A mammoth safe, with a dial which can spin to any number, has pride of place. It must weigh about the same as a small car, so don't get any ideas." Instead of opening the safe, say "The safe opens only when turned to the correct combination."</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can't see whom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-412"/>
+    </children>
+  </item>
+  <item nodeId="node-412">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-413">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">The safe opens only when turned to the correct combination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-414"/>
+      <child nodeId="node-416"/>
+    </children>
+  </item>
+  <item nodeId="node-414">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">The safe opens only when turned to the correct combination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-415"/>
+    </children>
+  </item>
+  <item nodeId="node-415">
+    <command xml:space="preserve">spin safe to 1222</command>
+    <result xml:space="preserve">Click! and nothing else happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-416">
+    <command xml:space="preserve">examine safe</command>
+    <result xml:space="preserve">A mammoth safe, with a dial which can spin to any number, has pride of place. It must weigh about the same as a small car, so don't get any ideas.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-417">
+    <command xml:space="preserve">spin safe to 1384</command>
+    <result xml:space="preserve">Clonk! and the safe door swings slowly open, revealing a phone.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-418"/>
+    </children>
+  </item>
+  <item nodeId="node-418">
+    <command xml:space="preserve">take phone</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-419">
+    <command xml:space="preserve">set safe to 1384</command>
+    <result xml:space="preserve">No, you can't set that to anything.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-420"/>
+    </children>
+  </item>
+  <item nodeId="node-420">
+    <command xml:space="preserve">spin safe to 1384</command>
+    <result xml:space="preserve">Clonk! and the safe door swings slowly open, revealing a phone and photos.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
