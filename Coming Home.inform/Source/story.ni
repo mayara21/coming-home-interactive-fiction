@@ -84,7 +84,7 @@ Second Floor is a region. The Upper Hall, The Large Bedroom, the medium bedroom,
 
 Chapter 3 Things
 
-Player is in  Living Room.  
+Player is in  Kitchen.  
 Main key is in Porch.
 
 Section 3.1 On the Porch
@@ -104,7 +104,42 @@ Body is a thing. Body is in Living Room. The description of Body is “It looks 
 Instead of touching the Body: say "I better not touch it. Don't wanna tamper with evidence.".
 Instead of taking  the Body: say "I don't want to carry a dead body with me, what would Jesus think?".
 
+[Child]
+
 Child is a person. Child is in Living Room. The description of Child is "It looks like a pretty regular kid, a bit creepy he's not more affected by the dead body. Apparently he is a space fan, his shirt is quite IN YOUR FACE about it. He reminds me a little bit of myself when I was young… I might have also owned a 'I <3 space' shirt. Nowadays I am more subtle about my feelings for the outer world.".
+
+Understand "tell [someone] [text]" as answering it that. Understand "tell [someone] that [text]" as answering it that.
+
+Instead of answering the child that "hi", 
+	try asking child about "him".
+
+Instead of asking the child about "him", say "Are you ok? It's ok, I'm not gonna harm you"
+
+Instead of asking child about "the corpse":
+	try asking child about "corpse".
+
+Instead of asking child about "corpse":
+	say "Child: He looks familiar, but I don't know him. I just woke up in this house alone. Will someone hurt us?";
+	say "[line break] [line break] Everything will be ok, I'm going to get us out of here".	
+
+Instead of asking child about "name ":
+	say  "Child: I-I don't remember...";	
+
+Instead of asking child about "parrot",
+	say "Child: I like the parrot, he seems sad about the grandpa. Maybe we should give him a pet to cheer him up"
+
+Instead of asking child about "password ",
+	say "Child: I have no idea"
+
+Instead of asking child about "space ",
+	say	"Child: I COULD TALK ABOUT IT FOR DAYS. Last week I won a school contest just talking about the Milky Way for 100 people! My sister helped me with the slides. She made 10 star lanterns to light the room. Ten!"
+	
+Instead of asking child about  "private box":
+	say "Child: WOW this box is amazing. I always loved the space. My room has all these stars in the ceiling, and my mom tells me I am going to be an astronaut someday! I hope she is right. I wanna make her proud.
+Hey, I just thought: maybe the box has a secret compartment! That's how I hide stuff from my sister in my room. I love her, but she is really nosy" ;
+	say "[line break] [line break] That is one spirited kid… So many hopes and dreams. I miss this feeling. Hope.".
+
+[Child]
 
 
 Painting is a thing. Paiting is in Living Room. The description of painting is "Picture of a scary old woman with a poodle by her side. I would not appreciate crossing paths with this lady.".
@@ -126,10 +161,49 @@ Silver key is a thing. Silver key can be lost or found. Silver key  is lost.
 Instead of asking Child to try looking under Bookshelf when the Silver key is lost:
 	move the Silver key to the player;
 	now the Silver key is found;
-	say "Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table.
-You're a really strange kid."
+	say "Looks like it's a key. Fancy! Hey, there are a bunch of cool books on this shelf. I have some of them back in my house too! I would've liked grandpa...
+
+
+	Oh the child found a key. It must open something here. I'll keep it"
 
 Section 3.3 In the Kitchen
+
+[Parrot]
+
+Parrot is a person. Parrot is in Kitchen. The description of Parrot is "Escrever". [Provisorio ele na cozinha]
+
+Instead of asking parrot about " phone ",
+	say "Parrot: Want food, HUNGRY"
+	
+Instead of asking parrot about "the corpse":
+	try asking child about "corpse".
+
+Instead of asking parrot about "corpse":
+	say "Parrot: Lonely, Lonely. You are so lonely";
+	say "[line break] [line break] Wow, that's rude".	
+
+Instead of asking parrot about "painting":
+	say "Parrot: Bad dog" ;
+	
+Instead of asking parrot about "keys":
+	say "Parrot: Look DOWN look DOWN" ;
+
+Instead of giving the parrot's food to the parrot: move the parrot's food to the parrot; say "Now, what about the phone? [line break] [line break]  Parrot: Starry Sky 59, Starry Sky 59" ;
+
+[give the parrot food ->  "Starry Sky 59, Starry Sky 59"
+
+se q-tip -> [inserir algum easter egg]
+Pet -> *bites* "Hey, that's nasty" -> "Nasty Nasty"]
+
+pet is an action applying to one thing. 
+Understand "pet [someone] " as pet.
+
+Instead of pet parrot:
+	say "Ouch. You bite me. Hey, that's nasty" ;
+	say "[line break] [line break] Parrot: Nasty Nasty" .
+
+
+[Parrot]
 
 Fridge is a container. Fridge is in Kitchen. 
 Instead of opening the Fridge: say  "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
@@ -160,13 +234,15 @@ Instead of taking pizza: say "That would come out of my paycheck".
 mail is a thing. mail is on Kitchen table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
 Instead of taking mail: say "I believe that is a federal crime.".
 
-
 Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
 
+Check unlocking the Upper Cupboard with crowbar:
+say “I would potentially destroy his entire cabinet, better use a smaller tool”;
+rule succeeds.
 
-Before opening Upper Cupboard:
-	if player is holding crowbar:
-		say "I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.";
+Unlocking is an action applying to two things. Understand "unlock [something] with [something]” as unlocking.
+Instead of unlocking Upper Cupboard  with crowbar, say “I would potentially destroy his entire cabinet, better use a smaller tool”
+
 
 
 After opening Upper Cupboard: say "Parrot's food… Highly nutritious. Lucky bastard. Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
@@ -185,11 +261,13 @@ sticker is a thing. sticker is on Motorcycle. The description of sticker is "I g
 Instead of taking the sticker: say "I'll end up ripping it apart.".
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
-screwdriver is a thing. screwdriver is in Toolbox. 
-crowbar  is a thing. crowbar  is in Toolbox.
+
+
 Rule for printing the name of the Toolbox: 
 	say "Toolbox";
 	omit contents in listing.
+crowbar  is a thing. crowbar  is in Toolbox.
+screwdriver is a thing. screwdriver is in  Toolbox. 
 
 
 Section 3.5 In the Bathroom
@@ -260,7 +338,9 @@ posters is a thing. posters is in Moving box.
 safe is a closed lockable locked container. safe is in Medium Bedroom.  The description of safe is "There is a phone ringing inside that safe. I need a 4 character password to open it."
 Instead of taking the safe: say "It's bolted to the floor".
 In the Safe is a phone and photos. The Safe is closed and fixed in place. Understand "dial" as the Safe.
+
 Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the Safe, say "[The noun] does not spin." instead. Report spinning it to: say "Click! and nothing else happens."
+
 Understand "spin [something] to [a number]" as spinning it to.
 After spinning the closed Safe to 1384: now the Safe is open; say "Clonk! and the safe door swings slowly open, revealing [a list of things in the Safe]."
 		
