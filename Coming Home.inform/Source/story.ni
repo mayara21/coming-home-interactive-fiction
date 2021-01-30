@@ -46,9 +46,16 @@ The matching key of the Main door is Main key.
 The matching key of the 'Garage door' is 'garage key'.]
 
 Living Room is a room. Living room is north of Hall.
-Garage is a room. Garage is west of Living Room."This garage feels a little... dirty. No one has been here for a while for sure."
-Kitchen is a room.  Kitchen is north of garage.
-Dining Room is a room. Dining room is east of kitchen. Dining Room is north of Living Room.
+A Solid metal door is a door. A Solid metal door is west of Living Room and east of Garage. A Solid metal door is closed and locked.
+The matching key of the Solid metal door is garage key.
+Garage is a room. "This garage feels a little... dirty. No one has been here for a while for sure."
+
+A Strong Metal Door is a door. A Strong Metal Door is south of Kitchen and north of Garage. A Strong Metal Door is closed and locked.
+The matching key of Strong Metal Door is garage key.
+Kitchen is a room.  
+A Large Wooden Door is a door. A Large Wooden Door is east of Kitchen and west of Dining room. A Large Wooden Door is closed and locked.
+The matching key of Large Wooden Door is  Silver key.
+Dining Room is north of Living Room.
 Home Office is a room. Home Office is east of Living Room.
 Lavabo is a room. Lavabo is east of Hall.
 Stairs is a staircase. It is above Hall and below Upper Hall.
@@ -64,7 +71,7 @@ Second Floor is a region. The Upper Hall, The Large Bedroom, the medium bedroom,
 
 Chapter 3 Things
 
-Player is in Porch.  
+Player is in Kitchen.  
 Main key is in Porch.
 
 Section 3.1 On the Porch
@@ -82,37 +89,75 @@ Section 3.2 In the Living Room
 
 Body is a thing. Body is in Living Room. The description of Body is “It looks like an old guy. I don't see any wounds or blood to indicate a murder or fight. Maybe he died naturally? He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police".
 Instead of touching the Body: say "I better not touch it. Don't wanna tamper with evidence.".
-Instead of taking the Body: say "I don't want to carry a dead body with me, what would Jesus think?".
+Instead of taking  the Body: say "I don't want to carry a dead body with me, what would Jesus think?".
 
 Child is a person. Child is in Living Room. The description of Child is "It looks like a pretty regular kid, a bit creepy he's not more affected by the dead body. Apparently he is a space fan, his shirt is quite IN YOUR FACE about it. He reminds me a little bit of myself when I was young… I might have also owned a 'I <3 space' shirt. Nowadays I am more subtle about my feelings for the outer world.".
+
 
 Painting is a thing. Paiting is in Living Room. The description of painting is "Picture of a scary old woman with a poodle by her side. I would not appreciate crossing paths with this lady.".
 Instead of taking the Painting: say "I don't think anyone would wanna buy it in the underworld market.".
 
-Shelves is in Living Room.
-throphies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
+Shelves is a thing. Shelves is in Living Room.
+Rule for printing the name of the Shelves: 
+	say "Shelves";
+	omit contents in listing.
+	 
+There is trophies. [This places it "off-stage" until we move it somewhere else.]
+trophies is a thing. trophies is on Shelves. The description of trophies is "It looks like some trophies from science fairs and contests… But they only go up to High School level. I wonder what happened after that.".
 Instead of taking the trophies: say "I am not going to steal some old awards, I have my own at home… Somewhere.".
+	
+
+Bookshelf is a thing. Bookshelf is in Living Room. The description of Bookshelf is "That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small"
+
+Silver key is a thing. Silver key can be lost or found. Silver key  is lost.
+Instead of asking Child to try looking under Bookshelf when the Silver key is lost:
+	move the Silver key to the player;
+	now the Silver key is found;
+	say "Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table.
+You're a really strange kid."
 
 Section 3.3 In the Kitchen
 
-Fridge is a container. Fridge is in Kitchen. The description of Fridge is "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
-Instead of opening the Fridge: say "I better not steal food from the old guy, I'm thinking this would count against me when I die.".
-old fruits is a thing. old fruits is in Fridge.
+Fridge is a container. Fridge is in Kitchen. 
+Instead of opening the Fridge: say  "The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.".
+Rule for printing the name of the Fridge: 
+	say "Fridge";
+	omit contents in listing.
+pistachio ice cream is a thing. pistachio ice cream is in Fridge. 
+eggs is a thing. eggs is in Fridge. 
+Instead of taking the pistachio ice cream: say "I better not steal food from the old guy, I'm thinking this would count against me when I die.".
+Instead of taking the eggs: say "I better not steal food from the old guy, I'm thinking this would count against me when I die.".
 
-Lower Cupboard is a container. Lower Cupboard is in Kitchen. The description of Lower Cupboard is "Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him… Must have hated him...".
+Lower Cupboard is a container. Lower Cupboard is in Kitchen. 
+Instead of opening or examining the Cupboard: say "Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him… Must have hated him...".
+Rule for printing the name of the Lower Cupboard : 
+	say "Lower Cupboard ";
+	omit contents in listing.
 candy is a thing. candy is in Lower Cupboard.
 Instead of taking the candy: say "I don't have health insurance, better not surrender myself to the temptations of potential cavities yet… Maybe when I'm older.".
 
+Kitchen table is in Kitchen.
+crowbar  is a thing. crowbar  is on Kitchen table. 
+garage key is a thing. garage key is on Kitchen table.
+
 Upper Cupboard is a container. Upper Cupboard is in Kitchen. Upper Cupboard is lockable and locked. The matching key of the Upper Cupboard is screwdriver.
+
+Before opening Upper Cupboard:
+	if player is holding crowbar:
+		say "I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.";
+		
+	
+
 After opening Upper Cupboard: say "Parrot's food… Highly nutritious. Lucky bastard. Coconut cake mix… Mom and I used to bake this all the time back in the day, until we didn't anymore...".
 parrot's food is a thing. parrot's food is in Upper Cupboard.
 
-Kitchen table is in Kitchen.
+
 pizza is a thing. pizza is on Kitchen table. The description of pizza is "Pepperoni's from Joe's… That's our best pizza.".
 Instead of taking pizza: say "That would come out of my paycheck".
 mail is a thing. mail is on Kitchen table. The description of mail is "Seems like some bills and a lot of ads. Why wouldn't he unsubscribe from all this mail?".
 Instead of taking mail: say "I believe that is a federal crime.".
-'garage key' is a thing. 'garage key' is on Kitchen table.
+
+
 
 Section 3.4 In the Garage
 
@@ -123,6 +168,7 @@ Instead of taking the sticker: say "I'll end up ripping it apart.".
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
+
 
 Section 3.5 In the Bathroom
 
