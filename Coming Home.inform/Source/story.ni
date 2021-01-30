@@ -64,16 +64,19 @@ Lavabo is a room. Lavabo is east of Hall.
 Stairs is a staircase. It is above Hall and below Upper Hall.
 
 Upper Hall is a room.  
-A Old Blue Door is a door. A Old Blue Door is south of Large Bedroom and north of Upper Hall. A Old Blue Door is closed and locked.
-The matching key of Old Blue Door is  Black key.
+A Classical Door is a door. A Classical Door is south of Large Bedroom and north of Upper Hall. A Classical Door is closed and locked.
+The matching key of Classical Door is  hair pins.
 Large Bedroom is a room. 
 
-A Brown Weak Door is a door. A Brown Weak Door is west of Medium Bedroom and east of Upper Hall. A Brown Weak Door is closed and locked.
-The matching key of Brown Weak Door is  crowbar.
-Medium Bedroom is a room. "Well, this room sure isn't the star of the house"
-
+A Old Blue Door is a door. A Old Blue Door is west of Medium Bedroom and east of Upper Hall. A Old Blue Door is closed and locked.
+The matching key of Old Blue Door is  Black key.
+Medium Bedroom is a room. "Well, this room sure isn't the star of the house".
 Small Bedroom is a room. Small Bedroom is west of Upper Hall.
-Bathroom is a room. Bathroom is south of Upper Hall. "This place gives me the chills… I was never a fan of bathrooms".
+
+
+A Brown Weak Door  is a door. A Brown Weak Door  is south of Upper Hall and north of Bathroom. A Brown Weak Door is closed and locked.
+The matching key of Brown Weak Door  is  crowbar.
+Bathroom is a room. "This place gives me the chills… I was never a fan of bathrooms".
 Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom.
 
 First Floor is a region. The Hall, Living Room, Garage, Kitchen, Dining Room, Home Office and Lavabo are in First Floor.
@@ -81,7 +84,7 @@ Second Floor is a region. The Upper Hall, The Large Bedroom, the medium bedroom,
 
 Chapter 3 Things
 
-Player is in Medium Bedroom.  
+Player is in  Living Room.  
 Main key is in Porch.
 
 Section 3.1 On the Porch
@@ -183,6 +186,7 @@ Instead of taking the sticker: say "I'll end up ripping it apart.".
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 screwdriver is a thing. screwdriver is in Toolbox. 
+crowbar  is a thing. crowbar  is in Toolbox.
 Rule for printing the name of the Toolbox: 
 	say "Toolbox";
 	omit contents in listing.
@@ -201,8 +205,9 @@ After opening Bathroom Cupboard: say "There are a lot of antidepressants here…
 q-tip is a thing. q-tip is in Bathroom Cupboard.
 tweezers is a thing. tweezers is in Bathroom Cupboard.
 meds is a container. meds is in Bathroom Cupboard.
-Black key is a thing. Black key is in meds. 
 alcohol is a thing. alcohol is in Bathroom Cupboard.
+hair pins is a thing. hair pins is in Bathroom Cupboard.
+
 
 Section 3.6 In the Large Bedroom
 
@@ -215,7 +220,7 @@ Rule for printing the name of the secret compartment:
 	say "secret compartment";
 	omit contents in listing.
  The matching key of the secret compartment is tweezers.
-Golg key is a thing. Golg key is in secret compartment.
+Black key is a thing. Black key is in secret compartment.
 
 Clothes rack is a container. Clothes rack is in Large Bedroom. The description of Clothes rack is "Looks like a work uniform. Was he still working at this age? It does not look like he worked with physics or space judging by this outfit. Guess the old man had some failed dreams… Man, am I going the sam– I should keep searching." .
 Rule for printing the name of the Clothes rack : 
@@ -240,7 +245,7 @@ Rule for printing the name of the Wardrobe:
 	omit contents in listing.
 shirts is a thing. shirts is in Wardrobe.
 Instead of taking the shirts: say "I already have drab clothes of my own".
-crowbar  is a thing. crowbar  is in Wardrobe.
+
 
 Section 3.7 In the Medium Bedroom
 

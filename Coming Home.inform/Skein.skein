@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-420"/>
+  <activeNode nodeId="node-480"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
-    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210130 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Medium Bedroom&#x000A;Well, this room sure isn't the star of the house&#x000A;&#x000A;You can see a Brown Weak Door, Moving box and safe (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Geraldo&#x000A;Release 1 / Serial number 210130 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-11"/>
@@ -34,36 +34,36 @@
       <child nodeId="node-219"/>
       <child nodeId="node-223"/>
       <child nodeId="node-227"/>
-      <child nodeId="node-231"/>
+      <child nodeId="node-235"/>
       <child nodeId="node-237"/>
       <child nodeId="node-246"/>
       <child nodeId="node-248"/>
       <child nodeId="node-251"/>
-      <child nodeId="node-253"/>
-      <child nodeId="node-258"/>
-      <child nodeId="node-270"/>
-      <child nodeId="node-284"/>
-      <child nodeId="node-290"/>
-      <child nodeId="node-294"/>
-      <child nodeId="node-314"/>
+      <child nodeId="node-254"/>
+      <child nodeId="node-285"/>
+      <child nodeId="node-302"/>
+      <child nodeId="node-312"/>
+      <child nodeId="node-316"/>
       <child nodeId="node-318"/>
-      <child nodeId="node-320"/>
+      <child nodeId="node-323"/>
+      <child nodeId="node-326"/>
+      <child nodeId="node-328"/>
       <child nodeId="node-335"/>
-      <child nodeId="node-337"/>
-      <child nodeId="node-340"/>
-      <child nodeId="node-342"/>
+      <child nodeId="node-341"/>
       <child nodeId="node-344"/>
       <child nodeId="node-346"/>
       <child nodeId="node-348"/>
+      <child nodeId="node-350"/>
       <child nodeId="node-352"/>
-      <child nodeId="node-353"/>
-      <child nodeId="node-354"/>
-      <child nodeId="node-355"/>
       <child nodeId="node-356"/>
       <child nodeId="node-357"/>
       <child nodeId="node-358"/>
       <child nodeId="node-359"/>
       <child nodeId="node-360"/>
+      <child nodeId="node-361"/>
+      <child nodeId="node-362"/>
+      <child nodeId="node-363"/>
+      <child nodeId="node-364"/>
       <child nodeId="node-367"/>
       <child nodeId="node-373"/>
       <child nodeId="node-374"/>
@@ -1739,6 +1739,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-196"/>
+      <child nodeId="node-421"/>
     </children>
   </item>
   <item nodeId="node-196">
@@ -1843,6 +1844,543 @@
   <item nodeId="node-207">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">(with Main key)&#x000A;You unlock Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-421">
+    <command xml:space="preserve">examine s</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-422"/>
+    </children>
+  </item>
+  <item nodeId="node-422">
+    <command xml:space="preserve">examine w</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-423"/>
+    </children>
+  </item>
+  <item nodeId="node-423">
+    <command xml:space="preserve">examine l</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-424"/>
+    </children>
+  </item>
+  <item nodeId="node-424">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">(first opening the Solid metal door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-425"/>
+    </children>
+  </item>
+  <item nodeId="node-425">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-426"/>
+    </children>
+  </item>
+  <item nodeId="node-426">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see an Old Blue Door, a Classical Door and a Brown Weak Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-427"/>
+    </children>
+  </item>
+  <item nodeId="node-427">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-428"/>
+    </children>
+  </item>
+  <item nodeId="node-428">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-429"/>
+    </children>
+  </item>
+  <item nodeId="node-429">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-430"/>
+    </children>
+  </item>
+  <item nodeId="node-430">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-431"/>
+    </children>
+  </item>
+  <item nodeId="node-431">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">Lavabo&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-432"/>
+    </children>
+  </item>
+  <item nodeId="node-432">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-433"/>
+    </children>
+  </item>
+  <item nodeId="node-433">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-434"/>
+    </children>
+  </item>
+  <item nodeId="node-434">
+    <command xml:space="preserve">child, look under Bookshelf </command>
+    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-435"/>
+    </children>
+  </item>
+  <item nodeId="node-435">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-436"/>
+    </children>
+  </item>
+  <item nodeId="node-436">
+    <command xml:space="preserve">unlock Large Wooden Door</command>
+    <result xml:space="preserve">(with Silver key)&#x000A;You unlock the Large Wooden Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-437"/>
+    </children>
+  </item>
+  <item nodeId="node-437">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-438"/>
+    </children>
+  </item>
+  <item nodeId="node-438">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">(first opening the Large Wooden Door)&#x000A;&#x000A;Kitchen&#x000A;You can see a Large Wooden Door, a Strong Metal Door, Fridge, Lower Cupboard , Kitchen table and Upper Cupboard (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-439"/>
+    </children>
+  </item>
+  <item nodeId="node-439">
+    <command xml:space="preserve">examine table</command>
+    <result xml:space="preserve">On Kitchen table are garage key, pizza and mail.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-440"/>
+    </children>
+  </item>
+  <item nodeId="node-440">
+    <command xml:space="preserve">get garage key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-441"/>
+    </children>
+  </item>
+  <item nodeId="node-441">
+    <command xml:space="preserve">unlock Strong Metal Door</command>
+    <result xml:space="preserve">What do you want to unlock the Strong Metal Door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-442"/>
+    </children>
+  </item>
+  <item nodeId="node-442">
+    <command xml:space="preserve">garage key</command>
+    <result xml:space="preserve">You unlock the Strong Metal Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-443"/>
+    </children>
+  </item>
+  <item nodeId="node-443">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-444"/>
+    </children>
+  </item>
+  <item nodeId="node-444">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-445"/>
+    </children>
+  </item>
+  <item nodeId="node-445">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">Kitchen&#x000A;You can see a Large Wooden Door, a Strong Metal Door, Fridge, Lower Cupboard , Kitchen table and Upper Cupboard (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-446"/>
+    </children>
+  </item>
+  <item nodeId="node-446">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-447"/>
+    </children>
+  </item>
+  <item nodeId="node-447">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">(first opening the Strong Metal Door)&#x000A;&#x000A;Garage&#x000A;This garage feels a little... dirty. No one has been here for a while for sure.&#x000A;&#x000A;You can see a Strong Metal Door, a Solid metal door, Motorcycle and Toolbox here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-448"/>
+    </children>
+  </item>
+  <item nodeId="node-448">
+    <command xml:space="preserve">examine toolbox</command>
+    <result xml:space="preserve">Your usual toolbox.&#x000A;&#x000A;In Toolbox are crowbar and screwdriver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-449"/>
+    </children>
+  </item>
+  <item nodeId="node-449">
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-450"/>
+    </children>
+  </item>
+  <item nodeId="node-450">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-451"/>
+    </children>
+  </item>
+  <item nodeId="node-451">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-452"/>
+    </children>
+  </item>
+  <item nodeId="node-452">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">(first opening the Solid metal door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-453"/>
+    </children>
+  </item>
+  <item nodeId="node-453">
+    <command xml:space="preserve">unlock</command>
+    <result xml:space="preserve">What do you want to unlock?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-454"/>
+    </children>
+  </item>
+  <item nodeId="node-454">
+    <command xml:space="preserve">garage key</command>
+    <result xml:space="preserve">What do you want to unlock garage key with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-455"/>
+    </children>
+  </item>
+  <item nodeId="node-455">
+    <command xml:space="preserve">Strong Metal Door</command>
+    <result xml:space="preserve">(first taking the Strong Metal Door)&#x000A;That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-456"/>
+    </children>
+  </item>
+  <item nodeId="node-456">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">(first opening the Solid metal door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-457"/>
+    </children>
+  </item>
+  <item nodeId="node-457">
+    <command xml:space="preserve">unlock Solid metal door</command>
+    <result xml:space="preserve">What do you want to unlock the Solid metal door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-458"/>
+    </children>
+  </item>
+  <item nodeId="node-458">
+    <command xml:space="preserve">garage key</command>
+    <result xml:space="preserve">You unlock the Solid metal door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-459"/>
+    </children>
+  </item>
+  <item nodeId="node-459">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">(first opening the Solid metal door)&#x000A;&#x000A;Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-460"/>
+    </children>
+  </item>
+  <item nodeId="node-460">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-461"/>
+    </children>
+  </item>
+  <item nodeId="node-461">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see an Old Blue Door, a Classical Door and a Brown Weak Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-462"/>
+    </children>
+  </item>
+  <item nodeId="node-462">
+    <command xml:space="preserve">unlock bworn weak</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-463"/>
+    </children>
+  </item>
+  <item nodeId="node-463">
+    <command xml:space="preserve">unlock brown</command>
+    <result xml:space="preserve">What do you want to unlock the Brown Weak Door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-464"/>
+    </children>
+  </item>
+  <item nodeId="node-464">
+    <command xml:space="preserve">crowbar</command>
+    <result xml:space="preserve">You unlock the Brown Weak Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-465"/>
+    </children>
+  </item>
+  <item nodeId="node-465">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">(first opening the Classical Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-466"/>
+    </children>
+  </item>
+  <item nodeId="node-466">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">(first opening the Brown Weak Door)&#x000A;&#x000A;Bathroom&#x000A;This place gives me the chills&#x2026; I was never a fan of bathrooms&#x000A;&#x000A;You can see a Brown Weak Door, Mirror and Bathroom Cupboard  here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-467"/>
+    </children>
+  </item>
+  <item nodeId="node-467">
+    <command xml:space="preserve">examine Bathroom Cupboard </command>
+    <result xml:space="preserve">A regular bathroom cabinet. Nothing special about its exterior.&#x000A;&#x000A;In Bathroom Cupboard  are hair pins, q-tip, tweezers, meds and alcohol.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-468"/>
+    </children>
+  </item>
+  <item nodeId="node-468">
+    <command xml:space="preserve">get hair pins</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-469"/>
+    </children>
+  </item>
+  <item nodeId="node-469">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see a Brown Weak Door, an Old Blue Door and a Classical Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-470"/>
+    </children>
+  </item>
+  <item nodeId="node-470">
+    <command xml:space="preserve">unlock classical </command>
+    <result xml:space="preserve">What do you want to unlock the Classical Door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-471"/>
+    </children>
+  </item>
+  <item nodeId="node-471">
+    <command xml:space="preserve">hair pins</command>
+    <result xml:space="preserve">You unlock the Classical Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-472"/>
+    </children>
+  </item>
+  <item nodeId="node-472">
+    <command xml:space="preserve">walk w</command>
+    <result xml:space="preserve">Small Bedroom&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-473"/>
+    </children>
+  </item>
+  <item nodeId="node-473">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see a Brown Weak Door, an Old Blue Door and a Classical Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-474"/>
+    </children>
+  </item>
+  <item nodeId="node-474">
+    <command xml:space="preserve">walk e</command>
+    <result xml:space="preserve">(first opening the Old Blue Door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-475"/>
+    </children>
+  </item>
+  <item nodeId="node-475">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Bathroom&#x000A;This place gives me the chills&#x2026; I was never a fan of bathrooms&#x000A;&#x000A;You can see a Brown Weak Door, Mirror and Bathroom Cupboard  here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-476"/>
+    </children>
+  </item>
+  <item nodeId="node-476">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Upper Hall&#x000A;You can see a Brown Weak Door, an Old Blue Door and a Classical Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-477"/>
+    </children>
+  </item>
+  <item nodeId="node-477">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">(first opening the Classical Door)&#x000A;&#x000A;Large Bedroom&#x000A;You can see a Classical Door, Personal box, Clothes rack , Bedside table, Photo shelves and Wardrobe here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-478"/>
+    </children>
+  </item>
+  <item nodeId="node-478">
+    <command xml:space="preserve">examine personal box</command>
+    <result xml:space="preserve">Box with a space decoration and filled with drawings, papers and toys about&#x2026; space, apparently. That's pretty sweet, actually. I wonder if it belongs to a grandson (though he seems to not have any family). I always liked the idea of studying the unknown. I will study it someday actually&#x2026; I think. When things are more stable, f-for sure I will&#x2026; I just need more time&#x2026; Err... the kid! The kid likes space. I could tell him about this box, it may distract him from the gloominess&#x000A;&#x000A;In Personal box is secret compartment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-479"/>
+    </children>
+  </item>
+  <item nodeId="node-479">
+    <command xml:space="preserve">unlock secret compartment</command>
+    <result xml:space="preserve">What do you want to unlock secret compartment with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-480"/>
+    </children>
+  </item>
+  <item nodeId="node-480">
+    <command xml:space="preserve">tweezers</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -2003,7 +2541,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-228"/>
-      <child nodeId="node-233"/>
+      <child nodeId="node-231"/>
     </children>
   </item>
   <item nodeId="node-228">
@@ -2030,42 +2568,9 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-233">
+  <item nodeId="node-231">
     <command xml:space="preserve">unlock  strong</command>
     <result xml:space="preserve">What do you want to unlock the Strong Metal Door with?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-234"/>
-    </children>
-  </item>
-  <item nodeId="node-234">
-    <command xml:space="preserve">main key</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-235"/>
-    </children>
-  </item>
-  <item nodeId="node-235">
-    <command xml:space="preserve">get garage key</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-236"/>
-    </children>
-  </item>
-  <item nodeId="node-236">
-    <command xml:space="preserve">unlock strong</command>
-    <result xml:space="preserve">(with garage key)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-231">
-    <command xml:space="preserve">unlock strong metal door</command>
-    <result xml:space="preserve">What do you want to unlock the Strong metal door with?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2073,6 +2578,39 @@
     </children>
   </item>
   <item nodeId="node-232">
+    <command xml:space="preserve">main key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">get garage key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">unlock strong</command>
+    <result xml:space="preserve">(with garage key)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">unlock strong metal door</command>
+    <result xml:space="preserve">What do you want to unlock the Strong metal door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
     <command xml:space="preserve">garage key</command>
     <result xml:space="preserve">(first taking garage key)&#x000A;You unlock the Strong metal door.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -2202,7 +2740,7 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-252"/>
-      <child nodeId="node-317"/>
+      <child nodeId="node-253"/>
     </children>
   </item>
   <item nodeId="node-252">
@@ -2211,35 +2749,26 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-317">
+  <item nodeId="node-253">
     <command xml:space="preserve">child, look under Bookshelf </command>
     <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you kid&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-253">
+  <item nodeId="node-254">
     <command xml:space="preserve">examine Shelves</command>
     <result xml:space="preserve">On Shelves is trophies.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-254"/>
-      <child nodeId="node-261"/>
-      <child nodeId="node-288"/>
-    </children>
-  </item>
-  <item nodeId="node-254">
-    <command xml:space="preserve">search Shelves</command>
-    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
       <child nodeId="node-255"/>
+      <child nodeId="node-259"/>
+      <child nodeId="node-267"/>
     </children>
   </item>
   <item nodeId="node-255">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">search Shelves</command>
+    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2247,8 +2776,8 @@
     </children>
   </item>
   <item nodeId="node-256">
-    <command xml:space="preserve">examine bookshelf</command>
-    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2256,372 +2785,112 @@
     </children>
   </item>
   <item nodeId="node-257">
+    <command xml:space="preserve">examine bookshelf</command>
+    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
     <command xml:space="preserve">look under bookshelf</command>
     <result xml:space="preserve">Oh it's a key. It must open something here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-261">
+  <item nodeId="node-259">
     <command xml:space="preserve">take trophies</command>
     <result xml:space="preserve">I am not going to steal some old awards, I have my own at home&#x2026; Somewhere&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-262"/>
-      <child nodeId="node-263"/>
-      <child nodeId="node-293"/>
-      <child nodeId="node-299"/>
+      <child nodeId="node-260"/>
+      <child nodeId="node-261"/>
+      <child nodeId="node-264"/>
+      <child nodeId="node-265"/>
     </children>
   </item>
-  <item nodeId="node-262">
+  <item nodeId="node-260">
     <command xml:space="preserve">get trophies</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-263">
+  <item nodeId="node-261">
     <command xml:space="preserve">open shelves</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-264"/>
+      <child nodeId="node-262"/>
     </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">get throphies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-264">
     <command xml:space="preserve">examine shelves</command>
     <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-265"/>
-    </children>
   </item>
   <item nodeId="node-265">
-    <command xml:space="preserve">get throphies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-293">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-299">
     <command xml:space="preserve">walk s</command>
     <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-300"/>
+      <child nodeId="node-266"/>
     </children>
   </item>
-  <item nodeId="node-300">
+  <item nodeId="node-266">
     <command xml:space="preserve">walk n</command>
     <result xml:space="preserve">Living Room&#x000A;You can see trophies, a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-288">
+  <item nodeId="node-267">
     <command xml:space="preserve">examine trophies</command>
     <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-289"/>
-      <child nodeId="node-306"/>
-      <child nodeId="node-327"/>
+      <child nodeId="node-268"/>
+      <child nodeId="node-269"/>
+      <child nodeId="node-277"/>
     </children>
   </item>
-  <item nodeId="node-289">
+  <item nodeId="node-268">
     <command xml:space="preserve">trophies</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-306">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">I am not going to steal some old awards, I have my own at home&#x2026; Somewhere.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-307"/>
-    </children>
-  </item>
-  <item nodeId="node-307">
-    <command xml:space="preserve">examine Bookshelf</command>
-    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-308"/>
-    </children>
-  </item>
-  <item nodeId="node-308">
-    <command xml:space="preserve">look under Bookshelf</command>
-    <result xml:space="preserve">Oh it's a key. It must open something here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-309"/>
-    </children>
-  </item>
-  <item nodeId="node-309">
-    <command xml:space="preserve">open Solid metal door</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-310"/>
-    </children>
-  </item>
-  <item nodeId="node-310">
-    <command xml:space="preserve">order clhild look under bookshelf</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-311"/>
-    </children>
-  </item>
-  <item nodeId="node-311">
-    <command xml:space="preserve">child look under bookshelf</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-312"/>
-    </children>
-  </item>
-  <item nodeId="node-312">
-    <command xml:space="preserve">look under bookshelf</command>
-    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-313"/>
-    </children>
-  </item>
-  <item nodeId="node-313">
-    <command xml:space="preserve">child, look under bookshelf</command>
-    <result xml:space="preserve">Child has better things to do.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-327">
-    <command xml:space="preserve">get trophies</command>
-    <result xml:space="preserve">I am not going to steal some old awards, I have my own at home&#x2026; Somewhere.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-328"/>
-    </children>
-  </item>
-  <item nodeId="node-328">
-    <command xml:space="preserve">examine bookshelf</command>
-    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-329"/>
-    </children>
-  </item>
-  <item nodeId="node-329">
-    <command xml:space="preserve">child, look under Bookshelf </command>
-    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-330"/>
-    </children>
-  </item>
-  <item nodeId="node-330">
-    <command xml:space="preserve">unlock Solid metal door</command>
-    <result xml:space="preserve">(with Silver key)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-331"/>
-    </children>
-  </item>
-  <item nodeId="node-331">
-    <command xml:space="preserve">walk north</command>
-    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-332"/>
-    </children>
-  </item>
-  <item nodeId="node-332">
-    <command xml:space="preserve">unlock Dining room</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-333"/>
-    </children>
-  </item>
-  <item nodeId="node-333">
-    <command xml:space="preserve">unlock Large Wooden Door </command>
-    <result xml:space="preserve">(with Silver key)&#x000A;You unlock the Large Wooden Door.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-334"/>
-    </children>
-  </item>
-  <item nodeId="node-334">
-    <command xml:space="preserve">Walk west</command>
-    <result xml:space="preserve">(first opening the Large Wooden Door)&#x000A;&#x000A;Kitchen&#x000A;You can see a Large Wooden Door, a Strong Metal Door, Fridge (empty), Lower Cupboard (in which is candy), Upper Cupboard (closed) and Kitchen table (on which are garage key, pizza and mail) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-258">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-259"/>
-      <child nodeId="node-266"/>
-      <child nodeId="node-267"/>
-      <child nodeId="node-280"/>
-      <child nodeId="node-301"/>
-    </children>
-  </item>
-  <item nodeId="node-259">
-    <command xml:space="preserve">get trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-260"/>
-    </children>
-  </item>
-  <item nodeId="node-260">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-266">
-    <command xml:space="preserve">get trhophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-267">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-268"/>
-      <child nodeId="node-292"/>
-    </children>
-  </item>
-  <item nodeId="node-268">
-    <command xml:space="preserve">get trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-269"/>
-    </children>
-  </item>
   <item nodeId="node-269">
-    <command xml:space="preserve">take throphies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-292">
-    <command xml:space="preserve">take throphies</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-280">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
-      <child nodeId="node-281"/>
-    </children>
-  </item>
-  <item nodeId="node-281">
     <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I am not going to steal some old awards, I have my own at home&#x2026; Somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-282"/>
+      <child nodeId="node-270"/>
     </children>
-  </item>
-  <item nodeId="node-282">
-    <command xml:space="preserve">get trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-283"/>
-    </children>
-  </item>
-  <item nodeId="node-283">
-    <command xml:space="preserve">open shelves</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-301">
-    <command xml:space="preserve">walk n</command>
-    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-302"/>
-    </children>
-  </item>
-  <item nodeId="node-302">
-    <command xml:space="preserve">walk</command>
-    <result xml:space="preserve">You'll have to say which compass direction to go in.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-303"/>
-    </children>
-  </item>
-  <item nodeId="node-303">
-    <command xml:space="preserve">walk s</command>
-    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-304"/>
-    </children>
-  </item>
-  <item nodeId="node-304">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-305"/>
-    </children>
-  </item>
-  <item nodeId="node-305">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-270">
-    <command xml:space="preserve">examine sheves</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine Bookshelf</command>
+    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2629,18 +2898,17 @@
     </children>
   </item>
   <item nodeId="node-271">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under Bookshelf</command>
+    <result xml:space="preserve">Oh it's a key. It must open something here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-272"/>
-      <child nodeId="node-278"/>
     </children>
   </item>
   <item nodeId="node-272">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open Solid metal door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2648,7 +2916,7 @@
     </children>
   </item>
   <item nodeId="node-273">
-    <command xml:space="preserve">living room</command>
+    <command xml:space="preserve">order clhild look under bookshelf</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -2657,8 +2925,8 @@
     </children>
   </item>
   <item nodeId="node-274">
-    <command xml:space="preserve">look around</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">child look under bookshelf</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2666,8 +2934,8 @@
     </children>
   </item>
   <item nodeId="node-275">
-    <command xml:space="preserve">look room</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under bookshelf</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2675,23 +2943,23 @@
     </children>
   </item>
   <item nodeId="node-276">
-    <command xml:space="preserve">walk s</command>
-    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">child, look under bookshelf</command>
+    <result xml:space="preserve">Child has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">get trophies</command>
+    <result xml:space="preserve">I am not going to steal some old awards, I have my own at home&#x2026; Somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-277"/>
+      <child nodeId="node-278"/>
     </children>
   </item>
-  <item nodeId="node-277">
-    <command xml:space="preserve">walk n</command>
-    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-278">
-    <command xml:space="preserve">get trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine bookshelf</command>
+    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2699,32 +2967,72 @@
     </children>
   </item>
   <item nodeId="node-279">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">child, look under Bookshelf </command>
+    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
   </item>
-  <item nodeId="node-284">
-    <command xml:space="preserve">examine trhophies</command>
+  <item nodeId="node-280">
+    <command xml:space="preserve">unlock Solid metal door</command>
+    <result xml:space="preserve">(with Silver key)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">walk north</command>
+    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">unlock Dining room</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-285"/>
+      <child nodeId="node-283"/>
     </children>
   </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">unlock Large Wooden Door </command>
+    <result xml:space="preserve">(with Silver key)&#x000A;You unlock the Large Wooden Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">Walk west</command>
+    <result xml:space="preserve">(first opening the Large Wooden Door)&#x000A;&#x000A;Kitchen&#x000A;You can see a Large Wooden Door, a Strong Metal Door, Fridge (empty), Lower Cupboard (in which is candy), Upper Cupboard (closed) and Kitchen table (on which are garage key, pizza and mail) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-285">
-    <command xml:space="preserve">take trophies</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-286"/>
+      <child nodeId="node-288"/>
+      <child nodeId="node-289"/>
+      <child nodeId="node-293"/>
+      <child nodeId="node-297"/>
     </children>
   </item>
   <item nodeId="node-286">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2737,9 +3045,25 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">get trhophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">take trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+      <child nodeId="node-292"/>
+    </children>
+  </item>
   <item nodeId="node-290">
-    <command xml:space="preserve">look under shelves</command>
-    <result xml:space="preserve">There seems to be a banana under the table.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2747,13 +3071,28 @@
     </children>
   </item>
   <item nodeId="node-291">
-    <command xml:space="preserve">take banana</command>
+    <command xml:space="preserve">take throphies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-292">
+    <command xml:space="preserve">take throphies</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-293">
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-294"/>
+    </children>
+  </item>
   <item nodeId="node-294">
-    <command xml:space="preserve">examine sh</command>
+    <command xml:space="preserve">take trophies</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -2762,8 +3101,8 @@
     </children>
   </item>
   <item nodeId="node-295">
-    <command xml:space="preserve">exaine shelves</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2771,17 +3110,14 @@
     </children>
   </item>
   <item nodeId="node-296">
-    <command xml:space="preserve">examine shelves</command>
-    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open shelves</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-297"/>
-    </children>
   </item>
   <item nodeId="node-297">
-    <command xml:space="preserve">tak trophies</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Dining Room&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2789,14 +3125,144 @@
     </children>
   </item>
   <item nodeId="node-298">
+    <command xml:space="preserve">walk</command>
+    <result xml:space="preserve">You'll have to say which compass direction to go in.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-299"/>
+    </children>
+  </item>
+  <item nodeId="node-299">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-300"/>
+    </children>
+  </item>
+  <item nodeId="node-300">
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">You see nothing special about Shelves.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-301"/>
+    </children>
+  </item>
+  <item nodeId="node-301">
     <command xml:space="preserve">take trophies</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-302">
+    <command xml:space="preserve">examine sheves</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-303"/>
+    </children>
+  </item>
+  <item nodeId="node-303">
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-304"/>
+      <child nodeId="node-310"/>
+    </children>
+  </item>
+  <item nodeId="node-304">
+    <command xml:space="preserve">take trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-305"/>
+    </children>
+  </item>
+  <item nodeId="node-305">
+    <command xml:space="preserve">living room</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-306"/>
+    </children>
+  </item>
+  <item nodeId="node-306">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-307"/>
+    </children>
+  </item>
+  <item nodeId="node-307">
+    <command xml:space="preserve">look room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-308"/>
+    </children>
+  </item>
+  <item nodeId="node-308">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-309"/>
+    </children>
+  </item>
+  <item nodeId="node-309">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-310">
+    <command xml:space="preserve">get trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-311"/>
+    </children>
+  </item>
+  <item nodeId="node-311">
+    <command xml:space="preserve">take trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-312">
+    <command xml:space="preserve">examine trhophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-313"/>
+    </children>
+  </item>
+  <item nodeId="node-313">
+    <command xml:space="preserve">take trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-314"/>
+    </children>
+  </item>
   <item nodeId="node-314">
-    <command xml:space="preserve">ask child to look under Bookshelf </command>
-    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2804,23 +3270,29 @@
     </children>
   </item>
   <item nodeId="node-315">
-    <command xml:space="preserve">asking child to try looking under Bookshelf</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-316">
+    <command xml:space="preserve">look under shelves</command>
+    <result xml:space="preserve">There seems to be a banana under the table.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-316"/>
+      <child nodeId="node-317"/>
     </children>
   </item>
-  <item nodeId="node-316">
-    <command xml:space="preserve">child, look under Bookshelf</command>
-    <result xml:space="preserve">Oh it's a key. It must open something here. I'll keep it.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-317">
+    <command xml:space="preserve">take banana</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-318">
-    <command xml:space="preserve">look bookshelf</command>
-    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine sh</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2828,14 +3300,17 @@
     </children>
   </item>
   <item nodeId="node-319">
-    <command xml:space="preserve">child, look under bookshelf</command>
-    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">exaine shelves</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-320"/>
+    </children>
   </item>
   <item nodeId="node-320">
-    <command xml:space="preserve">child, look under Bookshelf </command>
-    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine shelves</command>
+    <result xml:space="preserve">It looks like some trophies from science fairs and contests&#x2026; But they only go up to High School level. I wonder what happened after that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2843,8 +3318,8 @@
     </children>
   </item>
   <item nodeId="node-321">
-    <command xml:space="preserve">walk n</command>
-    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tak trophies</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2852,17 +3327,14 @@
     </children>
   </item>
   <item nodeId="node-322">
-    <command xml:space="preserve">open  Large Wooden Door</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take trophies</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-323"/>
-    </children>
   </item>
   <item nodeId="node-323">
-    <command xml:space="preserve">unlock Large Wooden Door</command>
-    <result xml:space="preserve">(with Silver key)&#x000A;You unlock the Large Wooden Door.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">ask child to look under Bookshelf </command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2870,8 +3342,8 @@
     </children>
   </item>
   <item nodeId="node-324">
-    <command xml:space="preserve">walk n</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">asking child to try looking under Bookshelf</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2879,15 +3351,81 @@
     </children>
   </item>
   <item nodeId="node-325">
+    <command xml:space="preserve">child, look under Bookshelf</command>
+    <result xml:space="preserve">Oh it's a key. It must open something here. I'll keep it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-326">
+    <command xml:space="preserve">look bookshelf</command>
+    <result xml:space="preserve">That's a lot of books, but they are incredibly dusty. Safe to say our guy didn't have allergies. Quite a bunch about physics too, he must have worked with that, neat! Hmm, it looks like there's something underneath it, but the crack is too small&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-327"/>
+    </children>
+  </item>
+  <item nodeId="node-327">
+    <command xml:space="preserve">child, look under bookshelf</command>
+    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-328">
+    <command xml:space="preserve">child, look under Bookshelf </command>
+    <result xml:space="preserve">Oh the child found a key. It must open something here. I'll keep it. Thank you k.. oh and you are back at the table. You're a really strange kid.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-329"/>
+    </children>
+  </item>
+  <item nodeId="node-329">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-330"/>
+    </children>
+  </item>
+  <item nodeId="node-330">
+    <command xml:space="preserve">open  Large Wooden Door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-331"/>
+    </children>
+  </item>
+  <item nodeId="node-331">
+    <command xml:space="preserve">unlock Large Wooden Door</command>
+    <result xml:space="preserve">(with Silver key)&#x000A;You unlock the Large Wooden Door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-332"/>
+    </children>
+  </item>
+  <item nodeId="node-332">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-333"/>
+    </children>
+  </item>
+  <item nodeId="node-333">
     <command xml:space="preserve">walk east</command>
     <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-326"/>
+      <child nodeId="node-334"/>
     </children>
   </item>
-  <item nodeId="node-326">
+  <item nodeId="node-334">
     <command xml:space="preserve">walk west</command>
     <result xml:space="preserve">(first opening the Large Wooden Door)&#x000A;&#x000A;Kitchen&#x000A;You can see a Large Wooden Door, a Strong Metal Door, Fridge (empty), Lower Cupboard (in which is candy), Upper Cupboard (closed) and Kitchen table (on which are garage key, pizza and mail) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -2908,45 +3446,12 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-363"/>
+      <child nodeId="node-337"/>
     </children>
-  </item>
-  <item nodeId="node-363">
-    <command xml:space="preserve">take eggs</command>
-    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-364"/>
-    </children>
-  </item>
-  <item nodeId="node-364">
-    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
-    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-365"/>
-    </children>
-  </item>
-  <item nodeId="node-365">
-    <command xml:space="preserve">take crowbar</command>
-    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-366"/>
-    </children>
-  </item>
-  <item nodeId="node-366">
-    <command xml:space="preserve">open Upper Cupboard</command>
-    <result xml:space="preserve">I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.&#x000A;&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
   </item>
   <item nodeId="node-337">
-    <command xml:space="preserve">open fridge</command>
-    <result xml:space="preserve">The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take eggs</command>
+    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2954,8 +3459,8 @@
     </children>
   </item>
   <item nodeId="node-338">
-    <command xml:space="preserve">take eggs</command>
-    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
+    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2963,29 +3468,32 @@
     </children>
   </item>
   <item nodeId="node-339">
-    <command xml:space="preserve">examine lower</command>
-    <result xml:space="preserve">Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him&#x2026; Must have hated him...&#x000A;&#x000A;In Lower Cupboard is candy.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-340">
-    <command xml:space="preserve">open Lower Cupboard</command>
-    <result xml:space="preserve">Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him&#x2026; Must have hated him...&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-341"/>
+      <child nodeId="node-340"/>
     </children>
   </item>
-  <item nodeId="node-341">
-    <command xml:space="preserve">get candy</command>
-    <result xml:space="preserve">I don't have health insurance, better not surrender myself to the temptations of potential cavities yet&#x2026; Maybe when I'm older.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-340">
+    <command xml:space="preserve">open Upper Cupboard</command>
+    <result xml:space="preserve">I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool.&#x000A;&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-341">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-342"/>
+    </children>
+  </item>
   <item nodeId="node-342">
-    <command xml:space="preserve">take crowbar</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take eggs</command>
+    <result xml:space="preserve">I better not steal food from the old guy, I'm thinking this would count against me when I die.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -2993,14 +3501,14 @@
     </children>
   </item>
   <item nodeId="node-343">
-    <command xml:space="preserve">open  Upper Cupboard</command>
-    <result xml:space="preserve">I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">examine lower</command>
+    <result xml:space="preserve">Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him&#x2026; Must have hated him...&#x000A;&#x000A;In Lower Cupboard is candy.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-344">
-    <command xml:space="preserve">open  Upper Cupboard</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open Lower Cupboard</command>
+    <result xml:space="preserve">Apparently our man had a sweet tooth. Look at all this candy, his dentist must hate him&#x2026; Must have hated him...&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3008,29 +3516,29 @@
     </children>
   </item>
   <item nodeId="node-345">
-    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
-    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get candy</command>
+    <result xml:space="preserve">I don't have health insurance, better not surrender myself to the temptations of potential cavities yet&#x2026; Maybe when I'm older.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-346">
-    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
-    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take crowbar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-347"/>
     </children>
   </item>
   <item nodeId="node-347">
     <command xml:space="preserve">open  Upper Cupboard</command>
-    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">I would potentially destroy his entire cabinet, better I get rid of the crowbar and only use a smaller tool&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
   </item>
   <item nodeId="node-348">
-    <command xml:space="preserve">Instead of opening a Upper Cupboard when the noun is a crowbar:</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open  Upper Cupboard</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -3042,92 +3550,122 @@
     <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-350"/>
-    </children>
   </item>
   <item nodeId="node-350">
-    <command xml:space="preserve">open  Upper Cupboard (</command>
-    <result xml:space="preserve">I only understood you as far as wanting to open Upper Cupboard.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
+    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-351"/>
     </children>
   </item>
   <item nodeId="node-351">
-    <command xml:space="preserve"> open Upper Cupboard </command>
+    <command xml:space="preserve">open  Upper Cupboard</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-352">
+    <command xml:space="preserve">Instead of opening a Upper Cupboard when the noun is a crowbar:</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-353"/>
+    </children>
+  </item>
+  <item nodeId="node-353">
+    <command xml:space="preserve">open Upper Cupboard with crowbar</command>
+    <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-354"/>
+    </children>
+  </item>
+  <item nodeId="node-354">
+    <command xml:space="preserve">open  Upper Cupboard (</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open Upper Cupboard.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-355"/>
+    </children>
+  </item>
+  <item nodeId="node-355">
+    <command xml:space="preserve"> open Upper Cupboard </command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-356">
     <command xml:space="preserve">open Upper Cupboard</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-353">
+  <item nodeId="node-357">
     <command xml:space="preserve">open Upper Cupboard </command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-354">
+  <item nodeId="node-358">
     <command xml:space="preserve">open upper</command>
     <result xml:space="preserve">The fridge is quite empty, must be why he ordered pizza. There is only a pack of eggs and a pistachio ice cream in the freezer. Man, I love pistachio ice cream.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-355">
+  <item nodeId="node-359">
     <command xml:space="preserve">open upper with crowbar</command>
     <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-356">
+  <item nodeId="node-360">
     <command xml:space="preserve">unlocking the Upper Cupboard with crowbar</command>
     <result xml:space="preserve">I would potentially destroy his entire cabinet, better use a smaller tool&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-357">
+  <item nodeId="node-361">
     <command xml:space="preserve">unlock the Upper Cupboard with crowbar</command>
     <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-358">
+  <item nodeId="node-362">
     <command xml:space="preserve">unlock Upper Cupboard with crowbar</command>
     <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-359">
+  <item nodeId="node-363">
     <command xml:space="preserve">open the Upper Cupboard with crowbar</command>
     <result xml:space="preserve">(first taking crowbar)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-360">
+  <item nodeId="node-364">
     <command xml:space="preserve">take crowar</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-361"/>
+      <child nodeId="node-365"/>
     </children>
   </item>
-  <item nodeId="node-361">
+  <item nodeId="node-365">
     <command xml:space="preserve">take crowbar</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-362"/>
+      <child nodeId="node-366"/>
     </children>
   </item>
-  <item nodeId="node-362">
+  <item nodeId="node-366">
     <command xml:space="preserve">open  Upper Cupboard</command>
     <result xml:space="preserve">I would potentially destroy his entire cabinet, better use a smaller tool&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
