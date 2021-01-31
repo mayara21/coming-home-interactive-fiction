@@ -10,7 +10,7 @@ Instead of climbing a staircase:
 
 Section 2;1 Chairs
 
-A chair is a kind of supporter that is enterable with carrying capacity 1. 
+[A chair is a kind of supporter that is enterable with carrying capacity 1. 
 Definition: A chair is occupied if something is on it.
 
 Understand the command "sit" as something new.
@@ -29,14 +29,14 @@ Carry out sitting on a chair:
 	silently try entering the noun.
 
 Report sitting on a chair:
-	say "You feel comfortable".
+	say "You feel comfortable".]
 
 Chapter 2 Geography
 
 Section 2.1 The House
 
 Porch is a room.  
-Hall is room. 
+Hall is room. "A long and empty hall. You can see stairs going to a second floor.".
 
 Main door is a door. It is north of Porch and south of Hall. Main door is open.
 The matching key of the Main door is Main key.
@@ -53,17 +53,17 @@ Garage is a room. "This garage feels a little... dirty. No one has been here for
 A Strong Metal Door is a door. A Strong Metal Door is south of Kitchen and north of Garage. A Strong Metal Door is closed and locked.
 The matching key of Strong Metal Door is garage key.
 
-Kitchen is a room.
+Kitchen is a room. "A regular kitchen. More menacing than usual."
 
 A Large Wooden Door is a door. A Large Wooden Door is east of Kitchen and west of Dining room. A Large Wooden Door is closed and locked.
 The matching key of Large Wooden Door is  Silver key.
 
-Dining Room is north of Living Room. "Doesn't seem like there's anything to do here. Just a small table and some dead plants".
+Dining Room is north of Living Room. "Doesn't seem like there's anything to do here. Just a small table and some dead plants. The kitchen seems to be on the left".
 Home Office is a room. Home Office is east of Living Room. "Doesn't seem like there's anything to do here".
 Lavabo is a room. Lavabo is east of Hall. "You don't see anything useful in this room.".
 Stairs is a staircase. It is above Hall and below Upper Hall. "Some ancient stairs. Doesn't look very stable.".
 
-Upper Hall is a room.  "A long and empty hall".
+Upper Hall is a room. "It leads to 4 different rooms."
 A Classical Door is a door. A Classical Door is south of Large Bedroom and north of Upper Hall. A Classical Door is closed and locked.
 The matching key of Classical Door is  hair pins.
 Large Bedroom is a room. "The old guy's bedroom. It is really cold and dark.".
@@ -91,7 +91,7 @@ Yourself can be begin or not. Player is begin.
 
 Rule for listing nondescript items of the Porch when player is begin:
 	do nothing;	 
-	say "[line break] It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt… And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.";		
+	say "[line break]It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt… And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.";		
 	say " [line break]You can see Main door here.";
 			
 
@@ -116,7 +116,7 @@ Understand "tell [someone] [text]" as answering it that. Understand "tell [someo
 Instead of answering the child that "hi", 
 	try asking child about "him".
 
-Instead of asking the child about "him", say "You: 'Are you ok? It's ok, I'm not gonna harm you'"
+Instead of asking the child about "him", say "Child: 'I'm lost. I just woke up here. What's going on?'".
 
 Instead of asking child about "the corpse":
 	try asking child about "corpse".
@@ -127,7 +127,8 @@ Instead of asking child about "body":
 Instead of asking child about "corpse":
 	say "Child: 'He looks familiar, but I don't know him. I just woke up in this house alone. Will someone hurt us?'";
 	say "[line break]You: 'Everything will be ok, I'm going to get us out of here'".	
-
+Instead of asking child about "house":
+	say "Child: 'I don't know where we are. I just woke up here. It looks familiar.'".
 Instead of asking child about "name ":
 	say  "Child: 'I-I don't remember...'";	
 
@@ -143,8 +144,16 @@ Instead of asking child about "space ",
 Instead of asking child about "box": 
 	try asking child about "personal box".	
 
+Instead of asking child about  "personal box":
+	if player has personal box:
+		say "Child: 'WOW this box is amazing. I always loved the space. My room has all these stars in the ceiling, and my mom tells me I am going to be an astronaut someday! I hope she is right. I wanna make her proud.
+		Hey, I just thought: maybe the box has a secret compartment! That's how I hide stuff from my sister in my room. I love her, but she is really nosy. Try looking underneath with a small tool, mine open like this!'" ;
+		say "[line break] [line break]That is one spirited kid… So many hopes and dreams. I miss this feeling. Hope.";
+		now the secret compartment is exposed;
+	else:
+		say "What box?".
+		
 [Child]
-
 
 Painting is a thing. Painting is in Living Room. The description of painting is "Picture of a scary old woman with a poodle by her side. You would not appreciate crossing paths with this lady.".
 Instead of taking the Painting: say "No one would wanna buy it in the underworld market.".
@@ -168,7 +177,7 @@ After reading a command:
     change the text of the player's command to N.
 
 Silver key is a thing. Silver key can be lost or found. Silver key  is lost.
-[Instead of asking child to try taking key when the silver key is lost: try asking child to try looking under bookshelf.]
+
 Instead of asking Child to try looking under Bookshelf when the Silver key is lost:
 	move the Silver key to the player;
 	now the Silver key is found;
@@ -181,38 +190,50 @@ Section 3.3 In the Kitchen
 
 [Parrot]
 
-Parrot is a person. Parrot is in Kitchen. The description of Parrot is "It's a very common parrot. Green, cute, and a blabbermouth. You remember you had a aunt who had one just like this. Perhaps with a bit more affinity for swearing". [Provisorio ele na cozinha]
+Parrot is a person. Parrot is in Kitchen. The description of Parrot is "It's a very common parrot. Green, cute, and a blabbermouth. You remember you had a aunt who had one just like this. Perhaps with a bit more affinity for swearing". parrot can be hungry or full. parrot is full.
 
-Instead of asking parrot about " phone ",
-	say "Parrot: 'Want food, HUNGRY'"
+Instead of asking parrot about "password": try asking parrot about "phone".
+
+Instead of asking parrot about " phone ":
+	if parrot is hungry:
+		say "Parrot: 'Want food, HUNGRY'";
+	else:
+		say "Trrrrrrrrr, upstairs, trrrrrr".
 	
 Instead of asking parrot about "the corpse":
 	try asking parrot about "corpse".
-
+	
+Instead of asking parrot about "body":
+	try asking parrot about "corpse".
+	
 Instead of asking parrot about "corpse":
 	say "Parrot: 'Lonely, Lonely. You are so lonely'";
-	say "[line break] [line break] Wow, that's rude".	
-
-Instead of asking parrot about "painting":
-	say "Parrot: 'Bad dog'" ;
+	say "[line break] [line break] That's rude".	
 	
-Instead of asking parrot about "keys":
-	say "Parrot: 'Look DOWN look DOWN'" ;
+Instead of asking parrot about "house":
+	say "Parrot: 'OLD'" ;
 
-Instead of giving the parrot's food to the parrot: move the parrot's food to the parrot; say "Now, what about the phone? [line break] [line break]  Parrot: 'Starry Sky 59, Starry Sky 59'" ;
+Instead of giving the parrot's food to the parrot: 
+	if parrot is hungry:
+		move the parrot's food to the parrot; 
+		say "You: 'Now, what about the phone?' [line break] [line break]Parrot: 'Starry Sky 59, Starry Sky 59'" ;
+	else:
+		say "Stupid boy, no food. Upstairs!".
 
-[give the parrot food ->  "Starry Sky 59, Starry Sky 59"
-
-se q-tip -> [inserir algum easter egg]
+[se q-tip -> [inserir algum easter egg]
 Pet -> *bites* "Hey, that's nasty" -> "Nasty Nasty"]
 
 pet is an action applying to one thing. 
 Understand "pet [someone] " as pet.
 
 Instead of pet parrot:
-	say "Ouch. You bit me. Hey, that's nasty" ;
-	say "[line break] [line break] Parrot: Nasty Nasty" .
+	say "You: 'Ouch. You bit me. Hey, that's nasty'" ;
+	say "[line break] [line break]Parrot: Nasty Nasty" .
 
+Instead of giving the q-tip to the Parrot:
+	move the q-tip to the parrot;
+	say "Parrot: 'Blackpink in your aReA!'";
+	say "[line break] [line break]You: 'Weird bird.'".
 
 [Parrot]
 
@@ -259,14 +280,13 @@ Unlocking is an action applying to two things. Understand "unlock [something] wi
 Instead of unlocking Upper Cupboard  with crowbar, say “You would potentially destroy his entire cabinet, better use a smaller tool”
 
 
-
 After opening Upper Cupboard: say "You see parrot's food… Highly nutritious. Lucky bastard. And coconut cake mix… You remember you and your mom used to bake this all the time back in the day, until you didn't anymore...".
 parrot's food is a thing. parrot's food is in Upper Cupboard.
 
 
 Section 3.4 In the Garage
 
-Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. Maybe he was a pizza guy too… back in the 1800’s HA. You’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...”.
+Motorcycle is in Garage. The description of Motorcycle is “This old rusty motorbike… It’s a delivery one. [line break]You: 'Maybe he was a pizza guy too… back in the 1800’s HA. I’ve been thinking of quitting. Every other day there’s a ‘situation’ with the other pizza place. These mafias...'”.
 Rule for printing the name of the Motorcycle: 
 	say "Motorcycle";
 	omit contents in listing.
@@ -277,12 +297,12 @@ Instead of taking the sticker: say "You'll end up ripping it apart.".
 
 Toolbox is a container. Toolbox is in Garage. The description of Toolbox is "Your usual toolbox.".
 
-
 Rule for printing the name of the Toolbox: 
 	say "Toolbox";
 	omit contents in listing.
 crowbar  is a thing. crowbar  is in Toolbox.
 screwdriver is a thing. screwdriver is in  Toolbox. 
+Instead of taking toolbox: say "It's best if you just take the necessary tools.".
 
 
 Section 3.5 In the Bathroom
@@ -327,20 +347,9 @@ Before examining the Personal box:
 		say "[line break][line break]There is a secret compartment.";
 		stop the action.
 		
-[child]
-Instead of asking child about  "personal box":
-	if player has personal box:
-		say "Child: 'WOW this box is amazing. I always loved the space. My room has all these stars in the ceiling, and my mom tells me I am going to be an astronaut someday! I hope she is right. I wanna make her proud.
-		Hey, I just thought: maybe the box has a secret compartment! That's how I hide stuff from my sister in my room. I love her, but she is really nosy'" ;
-		say "[line break] [line break]That is one spirited kid… So many hopes and dreams. I miss this feeling. Hope.";
-		now the secret compartment is exposed;
-	else:
-		say "What box?".
-		
-[child]
-		
 The matching key of the secret compartment is tweezers.
 Black key is a thing. Black key is in secret compartment.
+Letter is a thing. Letter is in secret compartment. The description of letter is "'Dear brother, [line break]I know we haven't spoken for some time. But as you well know, mom passed away, and... I am hurt. And I know you are too... You are not alone, ok?[line break]Hm, you weren't there when they read the will, but mom left you grandma's house. It's quite big, as you might remember. And it comes with the parrot. He could always cheer you up when we were kids! She told me he recently got a liking to q-tips, go figure.[line break]You should come here so we can settle everything. She stored a bunch of boxes with our childhood stuff. She even saved that multitude of star lanterns we used to make! I bet you would like to have some of that stuff.[line break]Anyway... little bro, we should stay together. I really need you here at this moment. Please come visit someday. The door is always open. We have always loved you.[line break][line break]Love, your big sis.'".
 
 Clothes rack is a container. Clothes rack is in Large Bedroom. The description of Clothes rack is "Looks like a work uniform. You wonder if he was still working at this age. It does not look like he worked with physics or space judging by this outfit. 'Guess the old man had some failed dreams… Man, am I going the sam– I should keep searching.'" .
 Rule for printing the name of the Clothes rack : 
@@ -382,16 +391,20 @@ Instead of taking posters: say "You have very similar posters stored in some box
 Instead of taking toys: say "You shouldn't be playing with toys at this moment. There are more urgent things to attend.".
 
 [safe]
-
-Before unlocking the Safe:
-	say "There is a phone ringing inside that safe. I need a 4 character password to open it."
-
 safe is a closed lockable locked container. safe is in Medium Bedroom.  
 Instead of taking the safe: say "It's bolted to the floor".
 
+Before unlocking the Safe:
+	now parrot is hungry;
+	say "There is a phone ringing inside that safe. I need a 4 character password to open it.".
+	
 To assess the safe:
-	if the safe is not open and the safe is  locked, say "'There is a phone ringing inside that safe. You need a 4 character password to open it.'[line break]";
-	if the safe is not open and the safe is unlocked, say " 'Now that you've guessed the password, you can open it and see what's inside' [line break]";
+	if the safe is not open and the safe is  locked:
+		now parrot is hungry; 
+		say "'There is a phone ringing inside that safe. You need a 4 character password to open it.'[line break]";
+	if the safe is not open and the safe is unlocked:
+		now parrot is full;
+		say " 'Now that you've guessed the password, you can open it and see what's inside' [line break]".
 	[if the safe is  open, say "Option 3 [line break]";]
 
 instead of examining the safe:
