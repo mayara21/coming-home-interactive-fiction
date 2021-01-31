@@ -39,6 +39,7 @@ Porch is a room.
 Hall is room. 
 
 Main door is a door. It is north of Porch and south of Hall. Main door is open.
+The matching key of the Main door is Main key.
 
 [O compilador não tá entendendo que garage door e garage estarem ambas ao oeste de living room não é uma contradição]
 ['Garage door' is a door. 'Garage door' is west of Living Room and east of Garage. 'Garage door' is closed and locked.
@@ -91,7 +92,8 @@ Yourself can be begin or not. Player is begin.
 Rule for listing nondescript items of the Porch when player is begin:
 	do nothing;	 
 	say "[line break] It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt… And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.";		
-	say " [line break]You can see Main door here	.";
+	say " [line break]You can see Main door here.";
+			
 
 Section 3.2 In the Living Room
 
@@ -99,7 +101,7 @@ Rule for listing nondescript items of the Living Room when player is begin:
 	do nothing;	 
 	say "[line break]There's a corpse in the middle of the room. You start to feel cold and nauseous. You also see a child by the corner. He seems alive. Your instinct tells you to get out, but how? Part of you also wants to call the police, help the kid and figure out what happened at this house. What will you do?";
 	say " [line break]You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.";
-	Now player is not begin;	
+	Now player is not begin;		
 	
 Body is a thing. Body is in Living Room. The description of Body is “It looks like an old guy. You don't see any wounds or blood to indicate a murder or fight. It makes you think maybe he died naturally. He sure is old enough for that. He seems oddly sad for someone who is no longer living. I have to call the police".
 Instead of touching the Body: say "You better not touch it. Don't wanna tamper with evidence.".
