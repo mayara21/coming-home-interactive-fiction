@@ -45,6 +45,7 @@ The matching key of the Main door is Main key.
 ['Garage door' is a door. 'Garage door' is west of Living Room and east of Garage. 'Garage door' is closed and locked.
 The matching key of the 'Garage door' is 'garage key'.]
 
+
 Living Room is a room. Living room is north of Hall.
 A Solid metal door is a door. A Solid metal door is west of Living Room and east of Garage. A Solid metal door is closed and locked.
 The matching key of the Solid metal door is garage key.
@@ -84,25 +85,41 @@ Second Floor is a region. The Upper Hall, The Large Bedroom, the medium bedroom,
 
 Chapter 3 Things
 
-Player is in the porch
+Player is in the Porch
 
 Section 3.1 On the Porch
 
-Yourself can be begin or not. Player is begin.
 
-Rule for listing nondescript items of the Porch when player is begin:
+Yourself can be start or beginning or middle or end. Player is start.
+
+Rule for listing nondescript items of the Porch when player is start:
 	do nothing;	 
 	say "[line break] It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt… And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.";		
 	say " [line break]You can see Main door here.";
+	now player is beginning;
+
+			
+before opening Main door :		
+	if player is end: 
+		end the story saying "You wake up in a very bright room. Dizzy. It doesn't look like that house anymore, maybe a hospital? You feel a sharp pain in your stomach, it looks like you were severely hurt. However, you can't help but feel some weird warmth in your chest… Is this hope?"
+		
+		
+		
+instead of going to the hall:	
+	now main door is closed;
+	say "The door closed behind you";
+	move the player to the hall
 			
 
 Section 3.2 In the Living Room
 
-Rule for listing nondescript items of the Living Room when player is begin:
+Rule for listing nondescript items of the Living Room when player is beginning:
 	do nothing;	 
-	say "[line break]There's a corpse in the middle of the room. You start to feel cold and nauseous. You also see a child by the corner. He seems alive. Your instinct tells you to get out, but how? Part of you also wants to call the police, help the kid and figure out what happened at this house. What will you do?";
+	now main door is closed;
+	say "[line break] There's a corpse in the middle of the room. You start to feel cold and nauseous. You also see a child by the corner. He seems alive. Your instinct tells you to get out, but how? Part of you also wants to call the police, help the kid and figure out what happened at this house. What will you do?";
 	say " [line break]You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.";
-	Now player is not begin;	
+	Now player is  middle;	
+	
 
 
 
@@ -417,6 +434,13 @@ After reading a command when the command prompt is "'Should I try again?' >":
 		say line break;
 		say run paragraph on;
 		reject the player's command.
+
+[Final]
+
+After opening the safe: 
+	now the Body is nowhere;
+	now the child is nowhere;
+	now player is  end;	
 
 
 

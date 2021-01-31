@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-683"/>
+  <activeNode nodeId="node-704"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
     <result xml:space="preserve">Welcome&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 210131 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;&#x000A; It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-11"/>
@@ -137,6 +137,10 @@
       <child nodeId="node-670"/>
       <child nodeId="node-677"/>
       <child nodeId="node-679"/>
+      <child nodeId="node-684"/>
+      <child nodeId="node-685"/>
+      <child nodeId="node-687"/>
+      <child nodeId="node-694"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -2512,6 +2516,7 @@
     <changed>YES</changed>
     <children>
       <child nodeId="node-674"/>
+      <child nodeId="node-701"/>
     </children>
   </item>
   <item nodeId="node-674">
@@ -2535,6 +2540,21 @@
   <item nodeId="node-676">
     <command xml:space="preserve">walk n</command>
     <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-701">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-702"/>
+    </children>
+  </item>
+  <item nodeId="node-702">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Porch&#x000A;&#x000A; It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -5675,18 +5695,120 @@
   </item>
   <item nodeId="node-668">
     <command xml:space="preserve">walk n</command>
-    <result xml:space="preserve">Dining room&#x000A;You can see a Large Wooden Door here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-669"/>
+      <child nodeId="node-689"/>
     </children>
   </item>
   <item nodeId="node-669">
     <command xml:space="preserve">walk s</command>
-    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;Porch&#x000A;&#x000A; It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
+    <children>
+      <child nodeId="node-692"/>
+      <child nodeId="node-696"/>
+    </children>
+  </item>
+  <item nodeId="node-692">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-693"/>
+      <child nodeId="node-703"/>
+    </children>
+  </item>
+  <item nodeId="node-693">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">hi&#x000A;That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-703">
+    <command xml:space="preserve">open main door</command>
+    <result xml:space="preserve">You open Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-704"/>
+    </children>
+  </item>
+  <item nodeId="node-704">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Porch&#x000A;&#x000A; It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-696">
+    <command xml:space="preserve">open</command>
+    <result xml:space="preserve">(Main door)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-697"/>
+    </children>
+  </item>
+  <item nodeId="node-697">
+    <command xml:space="preserve">open main door</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-698"/>
+    </children>
+  </item>
+  <item nodeId="node-698">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-699"/>
+    </children>
+  </item>
+  <item nodeId="node-699">
+    <command xml:space="preserve">open main door</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-700"/>
+    </children>
+  </item>
+  <item nodeId="node-700">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-689">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-690"/>
+    </children>
+  </item>
+  <item nodeId="node-690">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Hall&#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-691"/>
+    </children>
+  </item>
+  <item nodeId="node-691">
+    <command xml:space="preserve">walk s</command>
+    <result xml:space="preserve">Porch&#x000A;&#x000A; It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-670">
     <command xml:space="preserve">walk s</command>
@@ -5771,6 +5893,57 @@
   <item nodeId="node-683">
     <command xml:space="preserve">walk s</command>
     <result xml:space="preserve">Living Room&#x000A;You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-684">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">hi&#x000A;That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-685">
+    <command xml:space="preserve">open main dooe</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-686"/>
+    </children>
+  </item>
+  <item nodeId="node-686">
+    <command xml:space="preserve">open main door</command>
+    <result xml:space="preserve">You wake up in a very bright room. Dizzy. It doesn't look like that house anymore, maybe a hospital? You feel a sharp pain in your stomach, it looks like you were severely hurt. However, you can't help but feel some weird warmth in your chest&#x2026; Is this hope?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-687">
+    <command xml:space="preserve">open mai</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-688"/>
+    </children>
+  </item>
+  <item nodeId="node-688">
+    <command xml:space="preserve">open main door</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-694">
+    <command xml:space="preserve">close main door</command>
+    <result xml:space="preserve">You close Main door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-695"/>
+    </children>
+  </item>
+  <item nodeId="node-695">
+    <command xml:space="preserve">walk n</command>
+    <result xml:space="preserve">(first opening Main door)&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
