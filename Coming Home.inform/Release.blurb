@@ -10,7 +10,7 @@ release to "D:\BCC\2020.1\Projeto de Jogos\coming-home-interactive-fiction-main\
 
 ! Blorb instructions
 
-storyfile leafname "Coming Home.zblorb"
+storyfile leafname "story.zblorb"
 storyfile "D:\BCC\2020.1\Projeto de Jogos\coming-home-interactive-fiction-main\Coming Home.inform\Build\output.z8" include
 ifiction "D:\BCC\2020.1\Projeto de Jogos\coming-home-interactive-fiction-main\Coming Home.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
@@ -21,8 +21,8 @@ picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
 placeholder [IFID] = "EA77C1AD-692B-4F16-90D3-B8B6DAAC2B2C"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2021"
-placeholder [TITLE] = "Coming Home"
-placeholder [AUTHOR] = "Geraldo"
+placeholder [TITLE] = "Untitled"
+placeholder [AUTHOR] = "Anonymous"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

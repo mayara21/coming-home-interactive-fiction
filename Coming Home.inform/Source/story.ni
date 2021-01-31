@@ -84,7 +84,7 @@ Second Floor is a region. The Upper Hall, The Large Bedroom, the medium bedroom,
 
 Chapter 3 Things
 
-Player is in  Kitchen.  
+Player is in  Medium Bedroom.  
 Main key is in Porch.
 
 Section 3.1 On the Porch
@@ -334,11 +334,48 @@ Rule for printing the name of the Moving box:
 toys is a thing. toys is in Moving box. 
 posters is a thing. posters is in Moving box.
 
-security terminal  is a closed lockable locked container. security terminal is in Medium Bedroom. 
+[safe]
 
-safe is a closed lockable locked container. safe is in Medium Bedroom.  The description of safe is "There is a phone ringing inside that safe. I need a 4 character password to open it."
+Before unlocking the Safe:
+	say "There is a phone ringing inside that safe. I need a 4 character password to open it."
+
+safe is a closed lockable locked container. safe is in Medium Bedroom.  
 Instead of taking the safe: say "It's bolted to the floor".
-In the Safe is a phone and photos. The Safe is closed and fixed in place. Understand "dial" as the Safe.
+
+To assess the safe:
+	if the safe is not open and the safe is  locked, say "'There is a phone ringing inside that safe. I need a 4 character password to open it.'[line break]";
+	if the safe is not open and the safe is unlocked, say " 'Now that I've guessed the password, I can open it and see what's inside' [line break]";
+	[if the safe is  open, say "Option 3 [line break]";]
+
+instead of examining the safe:
+	assess the safe.
+
+[safe]
+
+[photos]
+
+photos is a thing. photos is in the Safe. 
+The description of photos is "Some dusty photos, not many of the old guy… Some of them have… you? But… this didn't happen. You've never worked at this place. You seem a bit older… but it's still you, you would recognize yourself... How is this possible? 'Why does he have pictures of me? How in the hell was I photographed in places I never was?'
+There seems to be photos of the kid as well, there's one of him winning… a contest? 'But I-I won that contest… many years ago… What is happening? Is the old man –… Is the kid –'"
+
+[photos]
+
+[phone]
+
+use is an action applying to one thing. 
+Understand "use [something] " as use.
+
+phone is a thing. phone is in the Safe. 
+Instead of use the phone: say  " You dial the emergency number and someone picks up. It's a woman's voice… a very familiar voice. She seems desperate and crying. You feel a sharp pain in your chest:
+[line break] 'Sweetie, please come home. I never wanted things to be this way, I am so sorry. We love you so much, please… Come back to your family. It's never too late. We are always here.'
+[line break] You try to speak but the voice changes, it's a young man speaking now: 'I never knew about your feelings, you never told me anything… My time has passed, but it's never too late to be true to yourself. The world deserves to see the real you… I wish I had'  You try to scream but nothing comes out, your eyes are now watery, when you hear the kid's voice… But it's coming from the phone: 'Don't be so sad… There's still time. You can still follow your dreams and be happy. You can still change our future… Hey, I think I get it now… '
+
+[line break] [line break] And then, the call ends. You hear the kid's voice… It seems like it's coming from the living room."
+
+
+[phone]
+
+
 
 Unlockingsafe is an action applying to one thing. Understand "Try to open [something]” as Unlockingsafe.
 Understand "Try to unlock [something]” as Unlockingsafe.
@@ -352,14 +389,14 @@ After reading a command when the command prompt is "Enter the password now. >":
 	increment the turn count;
 	if the player's command matches "SS59": 
 		now the safe is unlocked;
-		say "**BUZZ**  Yeah I got it. thank you dear parrot. Now what is in this safe.";
+		say "**BUZZ**  'Yeah I got it. thank you dear parrot. Now what is in this safe...'";
 		now the command prompt is ">";
 	otherwise:
 		say "Incorrect password.";
-		now the command prompt is "Should I try again? >";
+		now the command prompt is "'Should I try again?' >";
 	reject the player's command.	
 	
-After reading a command when the command prompt is "Should I try again? >":
+After reading a command when the command prompt is "'Should I try again?' >":
 	if the player's command matches "yes" or the player's command matches "y" or the player's command matches "try again": 
 		now the command prompt is "Enter the password now. >";
 		say line break;
