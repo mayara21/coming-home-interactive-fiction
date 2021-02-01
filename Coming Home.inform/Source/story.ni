@@ -206,9 +206,9 @@ Section 3.2 In the Living Room
 
 instead of going to Living Room:  
 	if player is end:
+		move the player to Living Room;
 		say "The body… it's gone. And so is the child. There's a warm breeze coming from the front door. You hear voices… the same voices that you heard on the phone. They keep saying the same thing: don't give up, you always have time to be honest with yourself and be who you want to be. It's never too late to come home.
 		Will you do it? Are you coming home?";
-		move the player to Living Room;
 		now player is final;
 	else :
 		move the player to Living Room
