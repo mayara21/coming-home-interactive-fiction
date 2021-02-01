@@ -1,4 +1,4 @@
-"Coming Home"
+"Coming Home" by Untitled Group Name
 
 
 Chapter 1 New Kinds
@@ -104,7 +104,9 @@ Section 2.1.1 Pathways
 Rule for listing nondescript items of the Hall:
 	do nothing;
 	say "A long and empty hall. ";
-	say "You can see a door to the north and stairs going to a second floor. The Living Room seems to be on the north.".
+	say "You can see a door to the north and stairs going to a second floor. The Living Room seems to be on the north. The entrance to the house is in the south";
+	if player is final:
+		say "[line break] The exit is wide open now. Are you going home?".
 
 
 [Living Room]
@@ -184,7 +186,6 @@ Section 3.1 On the Porch
 
 Yourself can be start or beginning or middle or end or final. Player is start.
 
-
 Rule for listing nondescript items of the Porch when player is start:
 	do nothing;	 
 	say "[line break]It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt… And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.";		
@@ -193,13 +194,13 @@ Rule for listing nondescript items of the Porch when player is start:
 
 before opening Main door :    
 	if player is final: 
-		end the story saying "You wake up in a very bright room. Dizzy. It doesn't look like that house anymore, maybe a hospital? You feel a sharp pain in your stomach, it looks like you were severely hurt. However, you can't help but feel some weird warmth in your chest… Is this hope"		
+		end the story saying "You wake up in a very bright room. Dizzy. It doesn't look like that house anymore, maybe a hospital? You feel a sharp pain in your stomach, it looks like you were severely hurt. However, you can't help but feel some weird warmth in your chest… Is this hope?"		
 
 instead of going to the hall:	
-	now main door is closed;
-	say "The door closed behind you";
-	move the player to the hall			
-
+	if player is beginning or player is middle:
+		now main door is closed;
+		say "The door closed behind you";
+	move the player to the hall.	
 
 Section 3.2 In the Living Room
 
@@ -218,7 +219,7 @@ Rule for listing nondescript items of the Living Room when player is beginning:
 	do nothing;	 
 	now main door is closed;
 	say "[line break] There's a corpse in the middle of the room. You start to feel cold and nauseous. You also see a child by the corner. He seems alive. Your instinct tells you to get out, but how? Part of you also wants to call the police, help the kid and figure out what happened at this house. What will you do?";
-	say " [line break]You can see a Solid metal door, Body, Child, Paiting, Shelves and Bookshelf here.";
+	say " [line break]You can see a Solid metal door, Body, Child, Painting, Shelves and Bookshelf here.";
 	Now player is  middle;	
 
 	
@@ -347,7 +348,7 @@ Section 3.3 In the Kitchen
 [Parrot]
 
 
-Parrot is a person. Parrot is in Kitchen. The description of Parrot is "It's a very common parrot. Green, cute, and a blabbermouth. You remember you had a aunt who had one just like this. Perhaps with a bit more affinity for swearing". parrot can be hungry or full. parrot is full.
+Parrot is a person. Parrot is in Kitchen. The description of Parrot is "It's a very common parrot. Green, cute, and a blabbermouth. You remember you had an aunt who had one just like this. Perhaps with a bit more affinity for swearing". parrot can be hungry or full. parrot is full.
 
 
 Instead of asking parrot about "password": try asking parrot about "phone".
@@ -502,19 +503,22 @@ Instead of run motorcycle:
 	if the player does not carry Moto key:
 		say "'I need to find the key'";
 	else:
-		say  "'YES I managed to start the motocycle. Now I can get out of here...'  [line break] Are you going to leave? You would be leaving the kid behind, and any chance of finding out what happened here, and how this all connects to you.";
+		say  "'YES I managed to start the motorcycle. Now I can get out of here...'  [line break] Are you going to leave? You would be leaving the kid behind, and any chance of finding out what happened here, and how this all connects to you.";
 		now the command prompt is "Are you leaving? >";
 	reject the player's command.	
 
 
 After reading a command when the command prompt is "Are you leaving? >":
 	if the player's command matches "yes" or the player's command matches "y" :
-		if player is end:
+		if player is end or player is final:
 			end the story saying "Maybe it was the safest bet, but it was also a betrayal to yourself. You were really close to redemption and to giving a second chance to the person you want to be... you just needed a little more courage. Someday you will have to stop running away from the truth. It's never too late.";
 		else:
 			end the story saying "You chose to run away from yourself. Abandoning the child, the corpse and any chance of figuring out your true connection to that place.";
 	if the player's command matches "no" or the player's command matches "n": 
-		say "I couldn't do this. I need to help the kid. I need to figure out what is going on here.";
+		if player is final:
+			say "'I-I can't... I need to get to the end of this. I need to try.'";
+		else:
+			say "'I couldn't do this. I need to help the kid. I need to figure out what is going on here.'";
 		now the command prompt is ">";
 		say line break;
 		say run paragraph on;
@@ -616,7 +620,7 @@ Black key is a thing. Black key is in secret compartment.
 
 Moto key is a thing. Moto key is in secret compartment.
 
-Letter is a thing. Letter is in secret compartment. The description of letter is "'Dear brother, [line break]I know we haven't spoken for some time. But as you well know, mom passed away, and... I am hurt. And I know you are too... You are not alone, ok?[line break]Hm, you weren't there when they read the will, but mom left you grandma's house. It's quite big, as you might remember. And it comes with the parrot. He could always cheer you up when we were kids! She told me he recently got a liking to q-tips, go figure.[line break]You should come here so we can settle everything. She stored a bunch of boxes with our childhood stuff. She even saved that multitude of star lanterns we used to make! I bet you would like to have some of that stuff.[line break]Anyway... little bro, we should stay together. I really need you here at this moment. Please come visit someday. The door is always open. We have always loved you.[line break][line break]Love, your big sis.'".
+Letter is a thing. Letter is in secret compartment. The description of letter is "'Dear brother, [line break]I know we haven't spoken for some time. But as you well know, mom passed away, and... I am hurt. And I know you are too... You are not alone, ok?[line break]Hm, you weren't there when they read the will, but mom left you grandma's house. It's quite big, as you might remember. And it comes with the parrot. He could always cheer you up when we were kids! She told me he recently got a liking to q-tips, go figure.[line break]You should come here so we can settle everything. She stored a bunch of boxes with our childhood stuff. She even saved that multitude of star lanterns we used to make! I bet you would like to have some of that stuff.[line break]Anyway... little bro, we should stay together. I really need you here at this moment. Please come visit someday. The door is always open. We have always loved you.[line break][line break]Love, your big sis.'[line break][line break]You: 'That's so sad... my big sis... my mo-'".
 
 
 Clothes rack is a container. Clothes rack is in Large Bedroom. The description of Clothes rack is "Looks like a work uniform. You wonder if he was still working at this age. It does not look like he worked with physics or space judging by this outfit. 'Guess the old man had some failed dreams… Man, am I going the sam– I should keep searching.'" .
