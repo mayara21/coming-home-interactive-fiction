@@ -22,7 +22,7 @@ placeholder [IFID] = "EA77C1AD-692B-4F16-90D3-B8B6DAAC2B2C"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2021"
 placeholder [TITLE] = "Coming Home"
-placeholder [AUTHOR] = "Anonymous"
+placeholder [AUTHOR] = "Untitled Group Name"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

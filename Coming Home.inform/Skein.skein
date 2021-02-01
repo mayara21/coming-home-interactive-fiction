@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-906"/>
+  <activeNode nodeId="node-914"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Coming Home</command>
-    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 210201 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;&#x000A;It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Coming Home&#x000A;An Interactive Fiction by Untitled Group Name&#x000A;Release 1 / Serial number 210201 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Porch&#x000A;&#x000A;It's your last delivery for the night. You park your bike, and make your way to the entrance. You ring the doorbell, but no one answers. The door is slightly opened. You try to peek through the crack, but your head starts to hurt&#x2026; And suddenly, everything turns black. You wake up disoriented. The pizza you were carrying is gone. Your bike is gone. And the front door is now fully open.&#x000A; &#x000A;You can see Main door here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -142,6 +142,7 @@
       <child nodeId="node-701"/>
       <child nodeId="node-703"/>
       <child nodeId="node-705"/>
+      <child nodeId="node-912"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -7760,6 +7761,75 @@
   <item nodeId="node-906">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Main door)&#x000A;&#x000A;&#x000A;    *** You wake up in a very bright room. Dizzy. It doesn't look like that house anymore, maybe a hospital? You feel a sharp pain in your stomach, it looks like you were severely hurt. However, you can't help but feel some weird warmth in your chest&#x2026; Is this hope ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-907"/>
+    </children>
+  </item>
+  <item nodeId="node-907">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Hall&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-908"/>
+    </children>
+  </item>
+  <item nodeId="node-908">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A;You can see three doors here, one heading north, other east and a heavy metal door to the west.&#x000A;You can see a Painting, Shelves, and Bookshelf here&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-909"/>
+    </children>
+  </item>
+  <item nodeId="node-909">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Garage&#x000A;This garage feels a little... dirty. No one has been here for a while for sure.&#x000A;There are two heavy metal doors (Strong Metal Door and Solid Metal Door) here, one to the east and other to the north.&#x000A;You can see Motorcycle and Toolbox here&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-910"/>
+    </children>
+  </item>
+  <item nodeId="node-910">
+    <command xml:space="preserve">escape on motorcycle</command>
+    <result xml:space="preserve">"YES I managed to start the motocycle. Now I can get out of here..."  &#x000A; Are you going to leave? You would be leaving the kid behind, and any chance of finding out what happened here, and how this all connects to you.&#x000A;&#x000A;Are you leaving? &gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-911"/>
+    </children>
+  </item>
+  <item nodeId="node-911">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">*** You chose to run away from yourself. Abandoning the child, the corpse and any chance of figuring out your true connection to that place. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-912">
+    <command xml:space="preserve">enter main door</command>
+    <result xml:space="preserve">The door closed behind you&#x000A;Hall&#x000A;A long and empty hall. You can see a door to the north and stairs going to a second floor. The Living Room seems to be on the north. The entrance to the house is in the south&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-913"/>
+    </children>
+  </item>
+  <item nodeId="node-913">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Living Room&#x000A;&#x000A; There's a corpse in the middle of the room. You start to feel cold and nauseous. You also see a child by the corner. He seems alive. Your instinct tells you to get out, but how? Part of you also wants to call the police, help the kid and figure out what happened at this house. What will you do?&#x000A; &#x000A;You can see a Solid metal door, Body, Child, Painting, Shelves and Bookshelf here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-914"/>
+    </children>
+  </item>
+  <item nodeId="node-914">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Hall&#x000A;A long and empty hall. You can see a door to the north and stairs going to a second floor. The Living Room seems to be on the north. The entrance to the house is in the south&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

@@ -196,7 +196,7 @@ before opening Main door :
 	if player is final: 
 		end the story saying "You wake up in a very bright room. Dizzy. It doesn't look like that house anymore, maybe a hospital? You feel a sharp pain in your stomach, it looks like you were severely hurt. However, you can't help but feel some weird warmth in your chest… Is this hope?"		
 
-instead of going to the hall:	
+instead of going to the hall from Porch:	
 	if player is beginning or player is middle:
 		now main door is closed;
 		say "The door closed behind you";
