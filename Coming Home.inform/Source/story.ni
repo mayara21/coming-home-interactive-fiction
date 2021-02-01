@@ -69,8 +69,8 @@ A Classical Door is a door. A Classical Door is south of Large Bedroom and north
 The matching key of Classical Door is  hair pins.
 Large Bedroom is a room. "The old guy's bedroom. It is really cold and dark.".
 
-A Old Blue Door is a door. A Old Blue Door is west of Medium Bedroom and east of Upper Hall. A Old Blue Door is closed and locked.
-The matching key of Old Blue Door is  Black key.
+A Old Black Door is a door. A Old Black Door is west of Medium Bedroom and east of Upper Hall. A Old Black Door is closed and locked.
+The matching key of Old Black Door is  Black key.
 Medium Bedroom is a room. "Well, this room sure isn't the star of the house".
 Small Bedroom is a room. Small Bedroom is west of Upper Hall. "Doesn't seem like this room was used for anything.".
 
